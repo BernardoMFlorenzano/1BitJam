@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -1701380206084564150, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+      propertyPath: spriteVirado
+      value: 
+      objectReference: {fileID: 6937817954938267909, guid: f624433be921fa54d94c79e1644ad193, type: 3}
     - target: {fileID: 142446769047752545, guid: 8ec42d54d80372548b044b1751688503, type: 3}
       propertyPath: m_Sprite
       value: 
