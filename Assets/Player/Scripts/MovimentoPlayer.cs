@@ -25,4 +25,13 @@ public class MovimentoPlayer : MonoBehaviour
     {
         rb.linearVelocity = direcao * playerData.velMov;
     }
+
+    void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("ChaoCartas"))
+        {
+            Debug.Log("Caiu");
+            Destroy(this.gameObject);
+        }
+    }
 }

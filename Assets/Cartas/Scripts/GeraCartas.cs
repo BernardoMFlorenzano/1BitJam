@@ -5,11 +5,13 @@ public class GeraCartas : MonoBehaviour
 {
     [SerializeField] private CartasData cartasData;
     private List<GameObject> cartasPoolCopia;
+    //private CompositeCollider2D compositeCollider2D;
     private GameObject cartaSpawnada;
     private int rand;
 
     void Awake()
     {
+        //compositeCollider2D = GetComponent<CompositeCollider2D>();
         cartasPoolCopia = new List<GameObject>(cartasData.cartasPool);
         cartasPoolCopia.AddRange(cartasPoolCopia);  // Duplicando a lista para ter os pares
 
