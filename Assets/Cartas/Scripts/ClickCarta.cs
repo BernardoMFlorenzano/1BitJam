@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 public class ClickCarta : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler
 {
     protected JogoDaMemoria jogoDaMemoria;  // protected inves de private para poder usar em classes filhas
-    public SpriteRenderer sr;
+    public SpriteRenderer spriteRenderer;
     public Sprite spriteCoberto;
     public Sprite spriteVirado;
     public Sprite spriteUsado;
@@ -14,7 +14,8 @@ public class ClickCarta : MonoBehaviour, IPointerDownHandler, IPointerUpHandler,
 
     void Awake()
     {
-        sr.sprite = spriteCoberto;  
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer.sprite = spriteCoberto;  
     }
 
     void Start ()
@@ -26,7 +27,7 @@ public class ClickCarta : MonoBehaviour, IPointerDownHandler, IPointerUpHandler,
     {
         if (interagivel && jogoDaMemoria.podeEscolher)
         {
-            sr.sprite = spriteVirado;
+            spriteRenderer.sprite = spriteVirado;
 
             jogoDaMemoria.Interacao(this);
             interagivel = false;
@@ -38,13 +39,13 @@ public class ClickCarta : MonoBehaviour, IPointerDownHandler, IPointerUpHandler,
     public virtual void EfeitoCarta()
     {
         // Gera efeitos
-        sr.sprite = spriteUsado;
+        spriteRenderer.sprite = spriteUsado;
         Debug.Log("Gerou efeito " + tipo);
     }
 
     public void ResetaCarta()
     {
-        sr.sprite = spriteCoberto;
+        spriteRenderer.sprite = spriteCoberto;
         interagivel = true;
     }
 

@@ -1,7 +1,8 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.SceneManagement;
+
 
 public class MovimentoPlayer : MonoBehaviour
 {
@@ -15,6 +16,8 @@ public class MovimentoPlayer : MonoBehaviour
     private Coroutine corPulo;
     private Collider2D cartaSelect;
     private SpriteRenderer spriteRenderer;
+
+    
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -80,7 +83,7 @@ public class MovimentoPlayer : MonoBehaviour
         if (!colliderCai.IsTouchingLayers(cartasLayer) && podeCair)
         {
             Debug.Log("Caiu");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            EventosManager.TriggerCaiu();
         }
     }
 

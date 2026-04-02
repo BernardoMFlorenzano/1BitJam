@@ -32,6 +32,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1696699821050342089, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3465286685962602723, guid: 559e8102e0db86f4280f7a67fa4aac4d, type: 3}
     - target: {fileID: 2706295348009502528, guid: 8ec42d54d80372548b044b1751688503, type: 3}
       propertyPath: m_Name
       value: Carta 6
@@ -83,19 +87,14 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2706295348009502528, guid: 8ec42d54d80372548b044b1751688503, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1572446720524244151}
+      addedObject: {fileID: 6044500501336536302}
   m_SourcePrefab: {fileID: 100100000, guid: 8ec42d54d80372548b044b1751688503, type: 3}
---- !u!212 &2131741529897102237 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 142446769047752545, guid: 8ec42d54d80372548b044b1751688503, type: 3}
-  m_PrefabInstance: {fileID: 2048967631335630076}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4170848323083609020 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2706295348009502528, guid: 8ec42d54d80372548b044b1751688503, type: 3}
   m_PrefabInstance: {fileID: 2048967631335630076}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1572446720524244151
+--- !u!114 &6044500501336536302
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -104,12 +103,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 4170848323083609020}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c7d648058fa98e44b4329267f176f26, type: 3}
+  m_Script: {fileID: 11500000, guid: 7a6bf924879141d4eaea0ae74b5afbd2, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ClickCarta
-  sr: {fileID: 2131741529897102237}
+  m_EditorClassIdentifier: Assembly-CSharp::CartaTipo6
+  spriteRenderer: {fileID: 0}
   spriteCoberto: {fileID: -6979473986985900911, guid: 71ec4f476ff4ff84a83a82e104064ded, type: 3}
   spriteVirado: {fileID: 3465286685962602723, guid: 559e8102e0db86f4280f7a67fa4aac4d, type: 3}
-  spriteUsado: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+  spriteUsado: {fileID: -6856151403513613314, guid: a9b2516684841b54cac1c8e9e239326b, type: 3}
   interagivel: 1
   tipo: 6
+  prefabTurret: {fileID: 1178011074081176575, guid: 19637ca010767424e92aa23998881197, type: 3}

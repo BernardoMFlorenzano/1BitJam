@@ -32,6 +32,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1696699821050342089, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7028616704906629411, guid: 0c5a0452300ab7a488c33751f664463a, type: 3}
     - target: {fileID: 2706295348009502528, guid: 8ec42d54d80372548b044b1751688503, type: 3}
       propertyPath: m_Name
       value: Carta 7
@@ -84,12 +88,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2706295348009502528, guid: 8ec42d54d80372548b044b1751688503, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4819377300520868729}
+    - targetCorrespondingSourceObject: {fileID: 2706295348009502528, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5316375137113840940}
   m_SourcePrefab: {fileID: 100100000, guid: 8ec42d54d80372548b044b1751688503, type: 3}
---- !u!212 &2131741529897102237 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 142446769047752545, guid: 8ec42d54d80372548b044b1751688503, type: 3}
-  m_PrefabInstance: {fileID: 2048967631335630076}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4170848323083609020 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2706295348009502528, guid: 8ec42d54d80372548b044b1751688503, type: 3}
@@ -107,9 +109,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c7d648058fa98e44b4329267f176f26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClickCarta
-  sr: {fileID: 2131741529897102237}
+  spriteRenderer: {fileID: 0}
   spriteCoberto: {fileID: -6979473986985900911, guid: 71ec4f476ff4ff84a83a82e104064ded, type: 3}
   spriteVirado: {fileID: 7028616704906629411, guid: 0c5a0452300ab7a488c33751f664463a, type: 3}
-  spriteUsado: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+  spriteUsado: {fileID: -6856151403513613314, guid: a9b2516684841b54cac1c8e9e239326b, type: 3}
   interagivel: 1
   tipo: 7
+--- !u!114 &5316375137113840940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4170848323083609020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33dab8450204cd241a1d2e935583d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CartaTipo7

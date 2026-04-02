@@ -103,6 +103,7 @@ GameObject:
   - component: {fileID: 8005896966846132778}
   - component: {fileID: 8035509497062143814}
   - component: {fileID: 4236440921160923599}
+  - component: {fileID: 2891454191319168754}
   m_Layer: 0
   m_Name: Morcego
   m_TagString: Inimigo
@@ -202,3 +203,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MovimentoMorcego
   morcegoData: {fileID: 11400000, guid: 7494dfe1733186d4b9354d2aca873900, type: 2}
+--- !u!114 &2891454191319168754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7017303691684017970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e7dcdadb17cc344db5250acef4817c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ColisorDano

@@ -5,5 +5,6 @@ public class MorcegoData : ScriptableObject
 {
     public float velMorcego;
     public float delayDanoInicio = 0.5f;
-
+	public float frequenciaRuido;
+	public float amplitudeRuido;
 }
