@@ -1,83 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &471066709376856566
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8477120825306427913}
-  - component: {fileID: 4858288782678351611}
-  m_Layer: 0
-  m_Name: ColliderChao
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8477120825306427913
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 471066709376856566}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3719706084171019850}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &4858288782678351611
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 471066709376856566}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 1
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!1 &2706295348009502528
 GameObject:
   m_ObjectHideFlags: 0
@@ -89,7 +11,7 @@ GameObject:
   - component: {fileID: 3719706084171019850}
   - component: {fileID: 1696699821050342089}
   - component: {fileID: 7822894346056465390}
-  - component: {fileID: -1701380206084564150}
+  - component: {fileID: -8212219113705677785}
   m_Layer: 6
   m_Name: Carta 1
   m_TagString: Carta
@@ -111,7 +33,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5987074954899082938}
-  - {fileID: 8477120825306427913}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1696699821050342089
@@ -219,7 +140,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &-1701380206084564150
+--- !u!114 &-8212219113705677785
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -228,12 +149,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 2706295348009502528}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c7d648058fa98e44b4329267f176f26, type: 3}
+  m_Script: {fileID: 11500000, guid: d90638722d5544844bac8cca01abc8f3, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ClickCarta
+  m_EditorClassIdentifier: Assembly-CSharp::CartaTipo1
   sr: {fileID: 142446769047752545}
   spriteCoberto: {fileID: -6979473986985900911, guid: 71ec4f476ff4ff84a83a82e104064ded, type: 3}
   spriteVirado: {fileID: -855298285791758126, guid: 7b1979f2f6cf1044fa0593ca0d00b9c3, type: 3}
+  spriteUsado: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+  interagivel: 1
+  tipo: 1
 --- !u!1 &2819142803996460286
 GameObject:
   m_ObjectHideFlags: 0

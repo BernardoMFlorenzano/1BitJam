@@ -9,6 +9,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -1701380206084564150, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+      propertyPath: tipo
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -1701380206084564150, guid: 8ec42d54d80372548b044b1751688503, type: 3}
       propertyPath: spriteVirado
       value: 
       objectReference: {fileID: -6470460504253458178, guid: edc00718a592f264485c28de30fb4b66, type: 3}
@@ -72,8 +76,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8212219113705677785, guid: 8ec42d54d80372548b044b1751688503, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2706295348009502528, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9211416921885792699}
   m_SourcePrefab: {fileID: 100100000, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+--- !u!212 &2131741529897102237 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 142446769047752545, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+  m_PrefabInstance: {fileID: 2048967631335630076}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4170848323083609020 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2706295348009502528, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+  m_PrefabInstance: {fileID: 2048967631335630076}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &9211416921885792699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4170848323083609020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0126b77ba7b4d5e4dbd9f5a7b293f3a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CartaTipo3
+  sr: {fileID: 2131741529897102237}
+  spriteCoberto: {fileID: -6979473986985900911, guid: 71ec4f476ff4ff84a83a82e104064ded, type: 3}
+  spriteVirado: {fileID: -6470460504253458178, guid: edc00718a592f264485c28de30fb4b66, type: 3}
+  spriteUsado: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+  interagivel: 1
+  tipo: 3
+  prefabMorcego: {fileID: 7017303691684017970, guid: 3f5afa2f979480f46aca93e7ec264bd9, type: 3}

@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Carta
   - ChaoCartas
+  - JogoDaMemoria
+  - ColisorPlayer
+  - Inimigo
   layers:
   - Default
   - TransparentFX
@@ -48,6 +51,12 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 3801875777
+    locked: 0
+  - name: Inimigos
+    uniqueID: 2402621047
+    locked: 0
+  - name: Objetos
+    uniqueID: 4239277059
     locked: 0
   m_RenderingLayers:
   - Default
