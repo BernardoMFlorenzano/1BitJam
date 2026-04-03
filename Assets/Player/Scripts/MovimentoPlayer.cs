@@ -67,7 +67,7 @@ public class MovimentoPlayer : MonoBehaviour
         podeCair = true;
         pulando = false;
 
-        if (cartaSelect = Physics2D.OverlapPoint(this.transform.position, cartasLayer))
+        if (cartaSelect = Physics2D.OverlapPoint(transform.position, cartasLayer))
         {
             cartaSelect.GetComponent<ClickCarta>().FlipCartaPlayer();
         }
@@ -84,7 +84,7 @@ public class MovimentoPlayer : MonoBehaviour
         {
             Debug.Log("Caiu");
             EventosManager.TriggerCaiu();
-        }
+        }   
     }
 
     IEnumerator Pulo(float duracaoPulo)

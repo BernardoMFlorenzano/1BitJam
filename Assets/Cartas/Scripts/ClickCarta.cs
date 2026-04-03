@@ -36,7 +36,7 @@ public class ClickCarta : MonoBehaviour, IPointerDownHandler, IPointerUpHandler,
         }
     }
 
-    public virtual void EfeitoCarta()
+    public virtual void EfeitoCarta(int num)
     {
         // Gera efeitos
         spriteRenderer.sprite = spriteUsado;

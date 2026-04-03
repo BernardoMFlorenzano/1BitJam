@@ -13,3 +13,6 @@ MonoBehaviour:
   m_Name: Morcego1
   m_EditorClassIdentifier: Assembly-CSharp::MorcegoData
   velMorcego: 1
+  delayDanoInicio: 0.5
+  frequenciaRuido: 0.5
+  amplitudeRuido: 0.5

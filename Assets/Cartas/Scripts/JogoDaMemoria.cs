@@ -50,9 +50,12 @@ public class JogoDaMemoria : MonoBehaviour
         if (combina)
         {
             Debug.Log("Acertou combinacao");
+
+            int cont = 0;
             foreach (GameObject c in cartasSelecionadas)
             {
-                c.GetComponent<ClickCarta>().EfeitoCarta();
+                cont++;
+                c.GetComponent<ClickCarta>().EfeitoCarta(cont);
             }
         }
         else
