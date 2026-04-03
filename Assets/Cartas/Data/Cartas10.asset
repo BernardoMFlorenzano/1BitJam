@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11f4e990aaec04f84ffd1b448266f3, type: 3}
+  m_Name: Cartas10
+  m_EditorClassIdentifier: Assembly-CSharp::CartasData
+  cartasPool:
+  - {fileID: 2706295348009502528, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+  - {fileID: 4170848323083609020, guid: 2d4f57b79fa6a6d4297090276220e426, type: 3}
+  - {fileID: 4170848323083609020, guid: b450c64529b678e46bd396a90ac4b58f, type: 3}
+  - {fileID: 4170848323083609020, guid: 675265d2d1b4d294d81eae86590c6b6a, type: 3}
+  - {fileID: 4170848323083609020, guid: 84d7e66cfa925014384ff62b7baa8169, type: 3}
+  - {fileID: 4170848323083609020, guid: da41b80d4c6edee4fbf053f0cfe9cd04, type: 3}
+  - {fileID: 4170848323083609020, guid: a5678a30bda9d234bbdd909aa95b9581, type: 3}
+  - {fileID: 4170848323083609020, guid: 7563b16d1f30fd34f8dfd06836a0a1cd, type: 3}
+  - {fileID: 4170848323083609020, guid: 9f3084826e1ac4e48afab7fd805711b4, type: 3}
+  - {fileID: 4170848323083609020, guid: a7efc261180a4214f9b8d4db2e734e56, type: 3}
+  QuantHorCartas: 5
+  QuantVerCartas: 4

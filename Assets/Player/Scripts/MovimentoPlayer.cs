@@ -7,9 +7,12 @@ using UnityEngine.InputSystem;
 public class MovimentoPlayer : MonoBehaviour
 {
     [SerializeField] private PlayerData playerData;
+    public float velMult = 1f;
+    public float puloMult = 1f;
     private Rigidbody2D rb;
     private CircleCollider2D colliderCai;
     private Vector2 direcao;
+    //private float rotacao;
     public LayerMask cartasLayer;
     public bool podeCair = false;   // Metodo que cria cartas vai alterar isso no começo
     public bool pulando = false;
@@ -33,6 +36,11 @@ public class MovimentoPlayer : MonoBehaviour
     {
         direcao = value.Get<Vector2>();
         direcao = direcao.normalized;
+
+        if (direcao != Vector2.zero)
+        {
+            transform.rotation = Quaternion.LookRotation(Vector3.forward, direcao);
+        }
     }
 
     public void OnJump()
@@ -53,7 +61,8 @@ public class MovimentoPlayer : MonoBehaviour
         podeCair = false;
         pulando = true;
         Debug.Log("Pula");
-        corPulo = StartCoroutine(Pulo(playerData.duracaoPulo));
+        corPulo = StartCoroutine(Pulo(playerData.duracaoPulo * puloMult));
+        puloMult = 1f;  // Reseta o multiplicador
     }
 
     void EscolheCarta()
@@ -63,6 +72,7 @@ public class MovimentoPlayer : MonoBehaviour
             spriteRenderer.transform.localScale = new Vector2(1f,1f);
             StopCoroutine(corPulo);
             corPulo = null;
+            velMult = 1f; // Reseta a velocidade quando cai (gosma)
         }
         podeCair = true;
         pulando = false;
@@ -78,7 +88,7 @@ public class MovimentoPlayer : MonoBehaviour
 
     void FixedUpdate()
     {
-        rb.linearVelocity = direcao * playerData.velMov;
+        rb.linearVelocity = direcao * playerData.velMov*velMult;
         
         if (!colliderCai.IsTouchingLayers(cartasLayer) && podeCair)
         {
@@ -90,11 +100,18 @@ public class MovimentoPlayer : MonoBehaviour
     IEnumerator Pulo(float duracaoPulo)
     {
         spriteRenderer.transform.localScale = new Vector2(1.1f,1.1f);
-        yield return new WaitForSeconds(duracaoPulo);
+
+        yield return new WaitForSeconds(duracaoPulo/2);
+
+        // Meio do pulo, troca animações
+
+        yield return new WaitForSeconds(duracaoPulo/2);
+
         spriteRenderer.transform.localScale = new Vector2(1f,1f);
         podeCair = true;
         pulando = false;
         Debug.Log("termina pulo");
+        velMult = 1f; // Reseta a velocidade quando cai (gosma)
     }
 
 
