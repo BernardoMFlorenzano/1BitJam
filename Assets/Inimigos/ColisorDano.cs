@@ -4,6 +4,7 @@ using UnityEngine;
 public class ColisorDano : MonoBehaviour
 {
     private bool ativo = false; // Pro player não morrer imediatamente
+    public float tempoDelay = 0.5f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -26,7 +27,7 @@ public class ColisorDano : MonoBehaviour
 
     IEnumerator DelayInicio()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(tempoDelay);
         ativo = true;
     }
 }

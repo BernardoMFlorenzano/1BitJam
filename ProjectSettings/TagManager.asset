@@ -49,14 +49,17 @@ TagManager:
   - name: Cartas
     uniqueID: 3035069809
     locked: 0
+  - name: Objetos
+    uniqueID: 4239277059
+    locked: 0
   - name: Player
     uniqueID: 3801875777
     locked: 0
   - name: Inimigos
     uniqueID: 2402621047
     locked: 0
-  - name: Objetos
-    uniqueID: 4239277059
+  - name: Projeteis
+    uniqueID: 1555935541
     locked: 0
   m_RenderingLayers:
   - Default

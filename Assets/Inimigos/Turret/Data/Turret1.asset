@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4b15776c518b97499c27799474f64a0, type: 3}
   m_Name: Turret1
   m_EditorClassIdentifier: Assembly-CSharp::TurretData
-  flechaVel: 0
-  cooldownTiro: 0
-  delayPosTiro: 0
-  delayPreTiro: 0
+  flechaVel: 5
+  cooldownTiro: 5
+  delayPosTiro: 1
+  delayPreTiro: 1

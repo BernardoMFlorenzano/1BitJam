@@ -1,16 +1,14 @@
+using Unity.Mathematics;
 using UnityEngine;
+using UnityEngine.UIElements;
 
-public class CartaTipo8 : MonoBehaviour
+public class CartaTipo8 : ClickCarta
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public GameObject prefabMachado;
+    public override void EfeitoCarta(int num)
     {
-        
-    }
+        base.EfeitoCarta(num);
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Instantiate(prefabMachado, transform.position, Quaternion.identity);
     }
 }
