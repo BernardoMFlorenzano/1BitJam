@@ -1,0 +1,1183 @@
+fileFormatVersion: 2
+guid: b5c50970c509aa24a9c58d62b1df7cec
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1438583061796639310
+    second: dog_jump0006_0
+  - first:
+      213: 1373791230500769323
+    second: dog_jump0006_1
+  - first:
+      213: 5300414371626912088
+    second: dog_jump0006_2
+  - first:
+      213: 5327818163143158229
+    second: dog_jump0006_3
+  - first:
+      213: -5234954294853288962
+    second: dog_jump0006_4
+  - first:
+      213: -2312525344422278665
+    second: dog_jump0006_5
+  - first:
+      213: -830214160946392135
+    second: dog_jump0006_6
+  - first:
+      213: 876923169894130692
+    second: dog_jump0006_7
+  - first:
+      213: 3013750503990043866
+    second: dog_jump0006_8
+  - first:
+      213: -4324306733041935430
+    second: dog_jump0006_9
+  - first:
+      213: -5923117032434709234
+    second: dog_jump0006_10
+  - first:
+      213: -1858306753210645437
+    second: dog_jump0006_11
+  - first:
+      213: -490174037574844312
+    second: dog_jump0006_12
+  - first:
+      213: 1996837402917765941
+    second: dog_jump0006_13
+  - first:
+      213: -945715047557995773
+    second: dog_jump0006_14
+  - first:
+      213: 7457992102747125227
+    second: dog_jump0006_15
+  - first:
+      213: 9184946396948623168
+    second: dog_jump0006_16
+  - first:
+      213: -571032853339475289
+    second: dog_jump0006_17
+  - first:
+      213: -2179700911400435980
+    second: dog_jump0006_18
+  - first:
+      213: 7394101637386789927
+    second: dog_jump0006_19
+  - first:
+      213: -5608398518529049080
+    second: dog_jump0006_20
+  - first:
+      213: 1527013407989767179
+    second: dog_jump0006_21
+  - first:
+      213: 2969642918795326528
+    second: dog_jump0006_22
+  - first:
+      213: -6627139358896537925
+    second: dog_jump0006_23
+  - first:
+      213: 9084820718614928265
+    second: dog_jump0006_24
+  - first:
+      213: 8147672580565286512
+    second: dog_jump0006_25
+  - first:
+      213: 3019601507470727651
+    second: dog_jump0006_26
+  - first:
+      213: -7191139310425462959
+    second: dog_jump0006_27
+  - first:
+      213: -7544305641448317971
+    second: dog_jump0006_28
+  - first:
+      213: 2756218455378039163
+    second: dog_jump0006_29
+  - first:
+      213: 6818890395818185898
+    second: dog_jump0006_30
+  - first:
+      213: 9076628809726169812
+    second: dog_jump0006_31
+  - first:
+      213: -4442538015047686485
+    second: dog_jump0006_32
+  - first:
+      213: 6642541699408988043
+    second: dog_jump0006_33
+  - first:
+      213: -3850021602325788707
+    second: dog_jump0006_34
+  - first:
+      213: -8848693452025166960
+    second: dog_jump0006_35
+  - first:
+      213: -4404378477875026470
+    second: dog_jump0006_36
+  - first:
+      213: 2472934315987822566
+    second: dog_jump0006_37
+  - first:
+      213: -5951151839696806765
+    second: dog_jump0006_38
+  - first:
+      213: -7276956406443514677
+    second: dog_jump0006_39
+  - first:
+      213: -7250281316957196002
+    second: dog_jump0006_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dog_jump0006_0
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 337
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e42584a3cafd6f310800000000000000
+      internalID: 1438583061796639310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_1
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 342
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2e8b8178dfa01310800000000000000
+      internalID: 1373791230500769323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 340
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8598237c9cade8940800000000000000
+      internalID: 5300414371626912088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 325
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d9a502346630f940800000000000000
+      internalID: 5327818163143158229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_4
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 327
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb3dd70ec4b957b0800000000000000
+      internalID: -5234954294853288962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_5
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 324
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f94f97937248efd0800000000000000
+      internalID: -2312525344422278665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_6
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 330
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b39a498e9c7a74f0800000000000000
+      internalID: -830214160946392135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_7
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 334
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40469d41af47b2c00800000000000000
+      internalID: 876923169894130692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_8
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 338
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad42bf7ad1ef2d920800000000000000
+      internalID: 3013750503990043866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_9
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 345
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb943dffe9fcf3c0800000000000000
+      internalID: -4324306733041935430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_10
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 334
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0dc9a6e07cdccda0800000000000000
+      internalID: -5923117032434709234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_11
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 340
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3448b2b8ad7f536e0800000000000000
+      internalID: -1858306753210645437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_12
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 340
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8608b345f4d8239f0800000000000000
+      internalID: -490174037574844312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_13
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 341
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533802bc90136bb10800000000000000
+      internalID: 1996837402917765941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_14
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 331
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3036093cc2520e2f0800000000000000
+      internalID: -945715047557995773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_15
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 342
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be539e5ad4c108760800000000000000
+      internalID: 7457992102747125227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_16
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 336
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f6027851c777f70800000000000000
+      internalID: 9184946396948623168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_17
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 327
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a27f9535a84318f0800000000000000
+      internalID: -571032853339475289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 335
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4feb163d19520c1e0800000000000000
+      internalID: -2179700911400435980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_19
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 318
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 724e29973402d9660800000000000000
+      internalID: 7394101637386789927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_20
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 325
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80ebf301347fa22b0800000000000000
+      internalID: -5608398518529049080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_21
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 328
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c1d76aa9a013510800000000000000
+      internalID: 1527013407989767179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_22
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 322
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 044bc84308a463920800000000000000
+      internalID: 2969642918795326528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_23
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 318
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe36fb7ddba704a0800000000000000
+      internalID: -6627139358896537925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_24
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 331
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98bd6256f44c31e70800000000000000
+      internalID: 9084820718614928265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_25
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 323
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07eb8c63b09521170800000000000000
+      internalID: 8147672580565286512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_26
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 325
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9d6009297c7e920800000000000000
+      internalID: 3019601507470727651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_27
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 319
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1572ebfb5e0f33c90800000000000000
+      internalID: -7191139310425462959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_28
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 330
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb5f749dfd3d4790800000000000000
+      internalID: -7544305641448317971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_29
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 325
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b711f24051e004620800000000000000
+      internalID: 2756218455378039163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_30
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 325
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4d01ddfa091ae50800000000000000
+      internalID: 6818890395818185898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_31
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 328
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d21ec9ffc9a6fd70800000000000000
+      internalID: 9076628809726169812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_32
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 16
+        width: 230
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6e9ef763fe852c0800000000000000
+      internalID: -4442538015047686485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_33
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 321
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b870efe5b7c0f2c50800000000000000
+      internalID: 6642541699408988043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_34
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 314
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd78acf30c9f19ac0800000000000000
+      internalID: -3850021602325788707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_35
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 318
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09307b11030233580800000000000000
+      internalID: -8848693452025166960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_36
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 318
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad522e91c1180e2c0800000000000000
+      internalID: -4404378477875026470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_37
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 318
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7e35188a0a15220800000000000000
+      internalID: 2472934315987822566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_38
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 267
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39c957eaee2496da0800000000000000
+      internalID: -5951151839696806765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_39
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 208
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc46eeb04be030b90800000000000000
+      internalID: -7276956406443514677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog_jump0006_40
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 18
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e117d1d4e83d16b90800000000000000
+      internalID: -7250281316957196002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      dog_jump0006_0: 1438583061796639310
+      dog_jump0006_1: 1373791230500769323
+      dog_jump0006_10: -5923117032434709234
+      dog_jump0006_11: -1858306753210645437
+      dog_jump0006_12: -490174037574844312
+      dog_jump0006_13: 1996837402917765941
+      dog_jump0006_14: -945715047557995773
+      dog_jump0006_15: 7457992102747125227
+      dog_jump0006_16: 9184946396948623168
+      dog_jump0006_17: -571032853339475289
+      dog_jump0006_18: -2179700911400435980
+      dog_jump0006_19: 7394101637386789927
+      dog_jump0006_2: 5300414371626912088
+      dog_jump0006_20: -5608398518529049080
+      dog_jump0006_21: 1527013407989767179
+      dog_jump0006_22: 2969642918795326528
+      dog_jump0006_23: -6627139358896537925
+      dog_jump0006_24: 9084820718614928265
+      dog_jump0006_25: 8147672580565286512
+      dog_jump0006_26: 3019601507470727651
+      dog_jump0006_27: -7191139310425462959
+      dog_jump0006_28: -7544305641448317971
+      dog_jump0006_29: 2756218455378039163
+      dog_jump0006_3: 5327818163143158229
+      dog_jump0006_30: 6818890395818185898
+      dog_jump0006_31: 9076628809726169812
+      dog_jump0006_32: -4442538015047686485
+      dog_jump0006_33: 6642541699408988043
+      dog_jump0006_34: -3850021602325788707
+      dog_jump0006_35: -8848693452025166960
+      dog_jump0006_36: -4404378477875026470
+      dog_jump0006_37: 2472934315987822566
+      dog_jump0006_38: -5951151839696806765
+      dog_jump0006_39: -7276956406443514677
+      dog_jump0006_4: -5234954294853288962
+      dog_jump0006_40: -7250281316957196002
+      dog_jump0006_5: -2312525344422278665
+      dog_jump0006_6: -830214160946392135
+      dog_jump0006_7: 876923169894130692
+      dog_jump0006_8: 3013750503990043866
+      dog_jump0006_9: -4324306733041935430
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
