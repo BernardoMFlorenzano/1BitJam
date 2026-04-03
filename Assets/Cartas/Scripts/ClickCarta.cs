@@ -14,7 +14,7 @@ public class ClickCarta : MonoBehaviour, IPointerDownHandler, IPointerUpHandler,
 
     void Awake()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         spriteRenderer.sprite = spriteCoberto;  
     }
 

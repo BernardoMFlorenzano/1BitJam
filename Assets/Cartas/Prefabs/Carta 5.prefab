@@ -107,7 +107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CartaTipo5
   spriteRenderer: {fileID: 0}
-  spriteCoberto: {fileID: -6979473986985900911, guid: 71ec4f476ff4ff84a83a82e104064ded, type: 3}
+  spriteCoberto: {fileID: 21300000, guid: 3ed8300a6064d0c48b57c8284dce0551, type: 3}
   spriteVirado: {fileID: 4130640169021434097, guid: cac881e79052b544daba2370ec7aa924, type: 3}
   spriteUsado: {fileID: -6856151403513613314, guid: a9b2516684841b54cac1c8e9e239326b, type: 3}
   interagivel: 1

@@ -5,6 +5,7 @@ using System.Collections.Generic;
 public class CartasData : ScriptableObject
 {
     public List<GameObject> cartasPool; // Possibilidades de cartas (unicas)
-    public int QuantHorCartas = 4;  // Quantidade de cartas horizontalmente  
-    public int QuantVerCartas = 4;  // Quantidade de cartas verticalmente 
+    public int quantHorCartas = 4;  // Quantidade de cartas horizontalmente  
+    public int quantVerCartas = 4;  // Quantidade de cartas verticalmente 
+    public float espacoEntreCartas = 0;
 }

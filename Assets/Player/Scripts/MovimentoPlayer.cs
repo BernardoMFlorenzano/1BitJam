@@ -39,7 +39,7 @@ public class MovimentoPlayer : MonoBehaviour
 
         if (direcao != Vector2.zero)
         {
-            transform.rotation = Quaternion.LookRotation(Vector3.forward, direcao);
+            transform.rotation = Quaternion.LookRotation(Vector3.forward, -direcao);
         }
     }
 
