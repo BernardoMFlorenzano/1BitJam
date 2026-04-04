@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: c225876f64c85b24e897b692a7674081
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5149858910796398960
+    second: flecha_surgindo0024_0
+  - first:
+      213: -1632811923653481148
+    second: flecha_surgindo0024_1
+  - first:
+      213: 93463577372867544
+    second: flecha_surgindo0024_2
+  - first:
+      213: -6505725802511396327
+    second: flecha_surgindo0024_3
+  - first:
+      213: -6788584976311207434
+    second: flecha_surgindo0024_4
+  - first:
+      213: 1654533230966523843
+    second: flecha_surgindo0024_5
+  - first:
+      213: -7199611604797987082
+    second: flecha_surgindo0024_6
+  - first:
+      213: -2499247167575755253
+    second: flecha_surgindo0024_7
+  - first:
+      213: -5478852748230945557
+    second: flecha_surgindo0024_8
+  - first:
+      213: 8553455272341611330
+    second: flecha_surgindo0024_9
+  - first:
+      213: 6988859753131314289
+    second: flecha_surgindo0024_10
+  - first:
+      213: -6458788874474060596
+    second: flecha_surgindo0024_11
+  - first:
+      213: -6933527574774163605
+    second: flecha_surgindo0024_12
+  - first:
+      213: 5568509399404095187
+    second: flecha_surgindo0024_13
+  - first:
+      213: -6282843386373156241
+    second: flecha_surgindo0024_14
+  - first:
+      213: 5019281764305171389
+    second: flecha_surgindo0024_15
+  - first:
+      213: 6190454667392514408
+    second: flecha_surgindo0024_16
+  - first:
+      213: 3942732431479754921
+    second: flecha_surgindo0024_17
+  - first:
+      213: 6752489120286159695
+    second: flecha_surgindo0024_18
+  - first:
+      213: -3890025690266273094
+    second: flecha_surgindo0024_19
+  - first:
+      213: -1637335405868520360
+    second: flecha_surgindo0024_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: flecha_surgindo0024_0
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 2161
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09eb9921b960888b0800000000000000
+      internalID: -5149858910796398960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flecha_surgindo0024_1
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 2167
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44dac99d4361759e0800000000000000
+      internalID: -1632811923653481148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flecha_surgindo0024_2
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 2141
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db3fb0e0ac0c4100800000000000000
+      internalID: 93463577372867544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flecha_surgindo0024_3
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 2169
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9121737f9d407b5a0800000000000000
+      internalID: -6505725802511396327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flecha_surgindo0024_4
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 2140
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f9ba677ee91ac1a0800000000000000
+      internalID: -6788584976311207434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flecha_surgindo0024_5
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 2157
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7c6dc153516f610800000000000000
+      internalID: 1654533230966523843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flecha_surgindo0024_6
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1974
+        width: 86
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f66c3ff367d51c90800000000000000
+      internalID: -7199611604797987082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flecha_surgindo0024_7
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 2132
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b06feb251f3e05dd0800000000000000
+      internalID: -2499247167575755253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flecha_surgindo0024_8
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 2142
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be49505247437f3b0800000000000000
+      internalID: -5478852748230945557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flecha_surgindo0024_9
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 2113
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2432d16804af3b670800000000000000
+      internalID: 8553455272341611330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flecha_surgindo0024_10
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 2112
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c8a6abaea6df060800000000000000
+      internalID: 6988859753131314289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flecha_surgindo0024_11
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 2121
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc48ab12db5cd56a0800000000000000
+      internalID: -6458788874474060596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flecha_surgindo0024_12
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 2095
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b67d539f76927cf90800000000000000
+      internalID: -6933527574774163605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flecha_surgindo0024_13
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 2105
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d6a7e7abc1574d40800000000000000
+      internalID: 5568509399404095187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flecha_surgindo0024_14
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 2105
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f62d0df5a3bdec8a0800000000000000
+      internalID: -6282843386373156241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flecha_surgindo0024_15
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 2104
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db3710ddb2218a540800000000000000
+      internalID: 5019281764305171389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flecha_surgindo0024_16
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 2074
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 869f618b8b9e8e550800000000000000
+      internalID: 6190454667392514408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flecha_surgindo0024_17
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 2074
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a053c6c14667b630800000000000000
+      internalID: 3942732431479754921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flecha_surgindo0024_18
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 38
+        width: 485
+        height: 1957
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f43b8542419a5bd50800000000000000
+      internalID: 6752489120286159695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flecha_surgindo0024_19
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1991
+        width: 59
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abaf884be3ad30ac0800000000000000
+      internalID: -3890025690266273094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flecha_surgindo0024_20
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1984
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c69039f140749e0800000000000000
+      internalID: -1637335405868520360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      flecha_surgindo0024_0: -5149858910796398960
+      flecha_surgindo0024_1: -1632811923653481148
+      flecha_surgindo0024_10: 6988859753131314289
+      flecha_surgindo0024_11: -6458788874474060596
+      flecha_surgindo0024_12: -6933527574774163605
+      flecha_surgindo0024_13: 5568509399404095187
+      flecha_surgindo0024_14: -6282843386373156241
+      flecha_surgindo0024_15: 5019281764305171389
+      flecha_surgindo0024_16: 6190454667392514408
+      flecha_surgindo0024_17: 3942732431479754921
+      flecha_surgindo0024_18: 6752489120286159695
+      flecha_surgindo0024_19: -3890025690266273094
+      flecha_surgindo0024_2: 93463577372867544
+      flecha_surgindo0024_20: -1637335405868520360
+      flecha_surgindo0024_3: -6505725802511396327
+      flecha_surgindo0024_4: -6788584976311207434
+      flecha_surgindo0024_5: 1654533230966523843
+      flecha_surgindo0024_6: -7199611604797987082
+      flecha_surgindo0024_7: -2499247167575755253
+      flecha_surgindo0024_8: -5478852748230945557
+      flecha_surgindo0024_9: 8553455272341611330
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

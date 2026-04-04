@@ -141,7 +141,7 @@ AnimatorState:
   m_Transitions:
   - {fileID: -1377398292558709232}
   m_StateMachineBehaviours:
-  - {fileID: 8392511433065731851}
+  - {fileID: 4484780290719407674}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -375,6 +375,18 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+--- !u!114 &4484780290719407674
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffac9f8fd21cebb48b7deef6c017a0eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DisabilitaSprite
 --- !u!1102 &4698993636981080682
 AnimatorState:
   serializedVersion: 6

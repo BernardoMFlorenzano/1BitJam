@@ -1,22 +1,28 @@
 fileFormatVersion: 2
-guid: 8589159deb51d67449a7b1beb6c0210c
+guid: 58a09654ac2cc304cac782ca232ffe90
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8205950651708530623
-    second: flecha_0
+      213: 7218958744683465393
+    second: flecha_surgindo0013_0
   - first:
-      213: 5570562576237448122
-    second: flecha_1
+      213: 230694566523566918
+    second: flecha_surgindo0013_1
   - first:
-      213: 6373886151394488790
-    second: flecha_2
+      213: -1604430783050176641
+    second: flecha_surgindo0013_2
   - first:
-      213: -5963538832723697038
-    second: flecha_3
+      213: 4983631139971024620
+    second: flecha_surgindo0013_3
   - first:
-      213: -5532847387147731141
-    second: flecha_4
+      213: -2141329644137184853
+    second: flecha_surgindo0013_4
+  - first:
+      213: 4327520224055833095
+    second: flecha_surgindo0013_5
+  - first:
+      213: 9141383698529619236
+    second: flecha_surgindo0013_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -125,7 +131,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: flecha_0
+      name: flecha_surgindo0013_0
       rect:
         serializedVersion: 2
         x: 506
@@ -140,20 +146,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fbfd87704a461e170800000000000000
-      internalID: 8205950651708530623
+      spriteID: 1bace090bb4ee2460800000000000000
+      internalID: 7218958744683465393
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flecha_1
+      name: flecha_surgindo0013_1
       rect:
         serializedVersion: 2
         x: 257
         y: 38
-        width: 485
-        height: 1957
+        width: 486
+        height: 2126
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,20 +168,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: abbc7b3262d9e4d40800000000000000
-      internalID: 5570562576237448122
+      spriteID: 64bff396c77933300800000000000000
+      internalID: 230694566523566918
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flecha_2
+      name: flecha_surgindo0013_2
       rect:
         serializedVersion: 2
-        x: 444
-        y: 1974
-        width: 86
-        height: 190
+        x: 760
+        y: 1704
+        width: 9
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +190,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6d176a43fa7947850800000000000000
-      internalID: 6373886151394488790
+      spriteID: f77a79514baebb9e0800000000000000
+      internalID: -1604430783050176641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flecha_3
+      name: flecha_surgindo0013_3
       rect:
         serializedVersion: 2
-        x: 542
-        y: 1991
-        width: 59
-        height: 67
+        x: 745
+        y: 1672
+        width: 13
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,20 +212,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 272a14f17014d3da0800000000000000
-      internalID: -5963538832723697038
+      spriteID: ce64c8d0e1a692540800000000000000
+      internalID: 4983631139971024620
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flecha_4
+      name: flecha_surgindo0013_4
       rect:
         serializedVersion: 2
-        x: 630
-        y: 1984
-        width: 32
-        height: 26
+        x: 764
+        y: 1680
+        width: 10
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,8 +234,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b3f7c9c9d906733b0800000000000000
-      internalID: -5532847387147731141
+      spriteID: ba1803ea8087842e0800000000000000
+      internalID: -2141329644137184853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flecha_surgindo0013_5
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1666
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 702ba2137b07e0c30800000000000000
+      internalID: 4327520224055833095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flecha_surgindo0013_6
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1669
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d876a6a08bcde70800000000000000
+      internalID: 9141383698529619236
       vertices: []
       indices: 
       edges: []
@@ -248,11 +298,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      flecha_0: 8205950651708530623
-      flecha_1: 5570562576237448122
-      flecha_2: 6373886151394488790
-      flecha_3: -5963538832723697038
-      flecha_4: -5532847387147731141
+      flecha_surgindo0013_0: 7218958744683465393
+      flecha_surgindo0013_1: 230694566523566918
+      flecha_surgindo0013_2: -1604430783050176641
+      flecha_surgindo0013_3: 4983631139971024620
+      flecha_surgindo0013_4: -2141329644137184853
+      flecha_surgindo0013_5: 4327520224055833095
+      flecha_surgindo0013_6: 9141383698529619236
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Jogo1
   m_EditorClassIdentifier: Assembly-CSharp::JogoDaMemoriaData
   combinacoesCartas: 2
-  quantidadeCombinacoesWin: 0
+  quantidadeCombinacoesWin: 2

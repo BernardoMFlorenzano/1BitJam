@@ -9,7 +9,7 @@ public class ManagerPlayer : MonoBehaviour
     private PausaJogo pausaJogo;
     private GameObject player;
     private Animator animatorPlayer;
-    private bool morreu = false;
+    private bool podeMorrer = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -18,10 +18,10 @@ public class ManagerPlayer : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
         animatorPlayer = player.GetComponentInChildren<Animator>();
 
-        Debug.Log(animatorPlayer);
-
         EventosManager.Caiu +=  QuedaPlayer;
         EventosManager.DanoPlayer += DanoPlayer;
+
+        podeMorrer = true; 
     }
 
     private void OnDisable()
@@ -32,18 +32,18 @@ public class ManagerPlayer : MonoBehaviour
 
     void QuedaPlayer()  // Trata o que acontece na queda
     {
-        if (!morreu)
+        if (podeMorrer)
         {
-            morreu = true;
+            podeMorrer = false;
             StartCoroutine(MortePlayerDano());   
         }
     }
 
     void DanoPlayer()   // Trata o que acontece ao levar dano
     {
-        if (!morreu)
+        if (podeMorrer)
         {
-            morreu = true;
+            podeMorrer = false;
             StartCoroutine(MortePlayerDano());   
         }
     }
@@ -51,7 +51,8 @@ public class ManagerPlayer : MonoBehaviour
     IEnumerator MortePlayerDano()
     {
         animatorPlayer.SetTrigger("morte");
-        yield return new WaitForSeconds(tempoAnimMorte);
+        pausaJogo.PausaLogica();
+        yield return new WaitForSecondsRealtime(tempoAnimMorte);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
     

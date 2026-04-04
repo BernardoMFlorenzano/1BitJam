@@ -1,22 +1,28 @@
 fileFormatVersion: 2
-guid: 8589159deb51d67449a7b1beb6c0210c
+guid: 3ff1a88a9ca30684c8066b6fd3e4ca3f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8205950651708530623
-    second: flecha_0
+      213: 4057495846063603998
+    second: brilho_particulas_0
   - first:
-      213: 5570562576237448122
-    second: flecha_1
+      213: -678644685279030279
+    second: brilho_particulas_1
   - first:
-      213: 6373886151394488790
-    second: flecha_2
+      213: 8286188548410214450
+    second: brilho_particulas_2
   - first:
-      213: -5963538832723697038
-    second: flecha_3
+      213: 1252836286254467664
+    second: brilho_particulas_3
   - first:
-      213: -5532847387147731141
-    second: flecha_4
+      213: -7744357333412606393
+    second: brilho_particulas_4
+  - first:
+      213: -716357768031229477
+    second: brilho_particulas_5
+  - first:
+      213: 611757037630481150
+    second: brilho_particulas_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -58,7 +64,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -125,13 +131,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: flecha_0
+      name: brilho_particulas_0
       rect:
         serializedVersion: 2
-        x: 506
-        y: 2169
-        width: 6
-        height: 6
+        x: 46
+        y: 155
+        width: 122
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +146,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fbfd87704a461e170800000000000000
-      internalID: 8205950651708530623
+      spriteID: e118e3679fe1f4830800000000000000
+      internalID: 4057495846063603998
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flecha_1
+      name: brilho_particulas_1
       rect:
         serializedVersion: 2
-        x: 257
-        y: 38
-        width: 485
-        height: 1957
+        x: 232
+        y: 182
+        width: 45
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,63 +168,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: abbc7b3262d9e4d40800000000000000
-      internalID: 5570562576237448122
+      spriteID: 9f39c3d1148f496f0800000000000000
+      internalID: -678644685279030279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flecha_2
+      name: brilho_particulas_2
       rect:
         serializedVersion: 2
-        x: 444
-        y: 1974
-        width: 86
-        height: 190
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6d176a43fa7947850800000000000000
-      internalID: 6373886151394488790
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flecha_3
-      rect:
-        serializedVersion: 2
-        x: 542
-        y: 1991
-        width: 59
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 272a14f17014d3da0800000000000000
-      internalID: -5963538832723697038
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flecha_4
-      rect:
-        serializedVersion: 2
-        x: 630
-        y: 1984
-        width: 32
+        x: 347
+        y: 187
+        width: 28
         height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -228,8 +190,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b3f7c9c9d906733b0800000000000000
-      internalID: -5532847387147731141
+      spriteID: 23886e925947ef270800000000000000
+      internalID: 8286188548410214450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brilho_particulas_3
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 173
+        width: 72
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05acaebe6f7f26110800000000000000
+      internalID: 1252836286254467664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brilho_particulas_4
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 93
+        width: 135
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e00406904868490800000000000000
+      internalID: -7744357333412606393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brilho_particulas_5
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 114
+        width: 107
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd92868c76cfe06f0800000000000000
+      internalID: -716357768031229477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brilho_particulas_6
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 29
+        width: 216
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef26fc4d8c56d7800800000000000000
+      internalID: 611757037630481150
       vertices: []
       indices: 
       edges: []
@@ -238,7 +288,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -248,11 +298,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      flecha_0: 8205950651708530623
-      flecha_1: 5570562576237448122
-      flecha_2: 6373886151394488790
-      flecha_3: -5963538832723697038
-      flecha_4: -5532847387147731141
+      brilho_particulas_0: 4057495846063603998
+      brilho_particulas_1: -678644685279030279
+      brilho_particulas_2: 8286188548410214450
+      brilho_particulas_3: 1252836286254467664
+      brilho_particulas_4: -7744357333412606393
+      brilho_particulas_5: -716357768031229477
+      brilho_particulas_6: 611757037630481150
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
