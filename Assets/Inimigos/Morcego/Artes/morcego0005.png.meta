@@ -1,0 +1,2704 @@
+fileFormatVersion: 2
+guid: 7337d0d999a00c944ad82e6ea3bf563e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5815955185618581543
+    second: morcego0005_0
+  - first:
+      213: -3260978801556559999
+    second: morcego0005_1
+  - first:
+      213: -2502153757524360555
+    second: morcego0005_2
+  - first:
+      213: 7529948775264086110
+    second: morcego0005_3
+  - first:
+      213: -4975820480321481319
+    second: morcego0005_4
+  - first:
+      213: 3219211871278710709
+    second: morcego0005_5
+  - first:
+      213: -2957268978755482584
+    second: morcego0005_6
+  - first:
+      213: 2006575901249693779
+    second: morcego0005_7
+  - first:
+      213: -4776184871513178283
+    second: morcego0005_8
+  - first:
+      213: 824672002987853795
+    second: morcego0005_9
+  - first:
+      213: -5852451499856410573
+    second: morcego0005_10
+  - first:
+      213: 3260957638254519278
+    second: morcego0005_11
+  - first:
+      213: -3456009313684376837
+    second: morcego0005_12
+  - first:
+      213: 4180616725129367457
+    second: morcego0005_13
+  - first:
+      213: -6524087308867700266
+    second: morcego0005_14
+  - first:
+      213: -1652380183656332924
+    second: morcego0005_15
+  - first:
+      213: 5733231114925222102
+    second: morcego0005_16
+  - first:
+      213: 3817352155673298221
+    second: morcego0005_17
+  - first:
+      213: -2018832885827727112
+    second: morcego0005_18
+  - first:
+      213: 2905710020401976356
+    second: morcego0005_19
+  - first:
+      213: -5701100082268278124
+    second: morcego0005_20
+  - first:
+      213: 4613544066048389776
+    second: morcego0005_21
+  - first:
+      213: 7604768749841246251
+    second: morcego0005_22
+  - first:
+      213: 4153984797691797097
+    second: morcego0005_23
+  - first:
+      213: -6171818544753995592
+    second: morcego0005_24
+  - first:
+      213: 2010022901318948769
+    second: morcego0005_25
+  - first:
+      213: 3839398178529067717
+    second: morcego0005_26
+  - first:
+      213: -8155054701175346330
+    second: morcego0005_27
+  - first:
+      213: 7590588786796263333
+    second: morcego0005_28
+  - first:
+      213: 2457358080032749570
+    second: morcego0005_29
+  - first:
+      213: 571776619592698908
+    second: morcego0005_30
+  - first:
+      213: -8867936141496346140
+    second: morcego0005_31
+  - first:
+      213: -2922200421980302219
+    second: morcego0005_32
+  - first:
+      213: 2150349471621152117
+    second: morcego0005_33
+  - first:
+      213: 8530565907301229544
+    second: morcego0005_34
+  - first:
+      213: -1937007044645531429
+    second: morcego0005_35
+  - first:
+      213: -2941983356023204607
+    second: morcego0005_36
+  - first:
+      213: 3323410668880288679
+    second: morcego0005_37
+  - first:
+      213: -7606562795499841141
+    second: morcego0005_38
+  - first:
+      213: 502375217712165838
+    second: morcego0005_39
+  - first:
+      213: -3580848276731992554
+    second: morcego0005_40
+  - first:
+      213: -6460710607632535956
+    second: morcego0005_41
+  - first:
+      213: 7621662357140422039
+    second: morcego0005_42
+  - first:
+      213: 4246981885414613147
+    second: morcego0005_43
+  - first:
+      213: -5863506343004040835
+    second: morcego0005_44
+  - first:
+      213: -837486125922151473
+    second: morcego0005_45
+  - first:
+      213: 9050028771535431563
+    second: morcego0005_46
+  - first:
+      213: 5229670794879955163
+    second: morcego0005_47
+  - first:
+      213: -5689300565163653410
+    second: morcego0005_48
+  - first:
+      213: -1183615004114793252
+    second: morcego0005_49
+  - first:
+      213: 5746949527626927817
+    second: morcego0005_50
+  - first:
+      213: -6605178182468908389
+    second: morcego0005_51
+  - first:
+      213: -1036818036689943912
+    second: morcego0005_52
+  - first:
+      213: 8118577913150008436
+    second: morcego0005_53
+  - first:
+      213: 4749207704482868335
+    second: morcego0005_54
+  - first:
+      213: -3908752251252832814
+    second: morcego0005_55
+  - first:
+      213: -7200228380379816210
+    second: morcego0005_56
+  - first:
+      213: 7805196282963388216
+    second: morcego0005_57
+  - first:
+      213: -6941772563830456921
+    second: morcego0005_58
+  - first:
+      213: 3225472581533723501
+    second: morcego0005_59
+  - first:
+      213: 5732451877354419900
+    second: morcego0005_60
+  - first:
+      213: -1891135523697173797
+    second: morcego0005_61
+  - first:
+      213: 3040657688569931146
+    second: morcego0005_62
+  - first:
+      213: 862389327355393446
+    second: morcego0005_63
+  - first:
+      213: -2893396604616850898
+    second: morcego0005_64
+  - first:
+      213: 2887946173002753314
+    second: morcego0005_65
+  - first:
+      213: 4614573775859892141
+    second: morcego0005_66
+  - first:
+      213: 3671000579592393577
+    second: morcego0005_67
+  - first:
+      213: 7322490658623035151
+    second: morcego0005_68
+  - first:
+      213: -980392643559558508
+    second: morcego0005_69
+  - first:
+      213: -3364477097336944496
+    second: morcego0005_70
+  - first:
+      213: -746532853150039449
+    second: morcego0005_71
+  - first:
+      213: 3606117579206853056
+    second: morcego0005_72
+  - first:
+      213: 3093796121696776605
+    second: morcego0005_73
+  - first:
+      213: -1641739092477761363
+    second: morcego0005_74
+  - first:
+      213: -8550287594082670273
+    second: morcego0005_75
+  - first:
+      213: -3183786111893450969
+    second: morcego0005_76
+  - first:
+      213: -4487292442936009695
+    second: morcego0005_77
+  - first:
+      213: 1531249401676922654
+    second: morcego0005_78
+  - first:
+      213: 2867332812364719705
+    second: morcego0005_79
+  - first:
+      213: 3873307262277836667
+    second: morcego0005_80
+  - first:
+      213: -2716056629878093480
+    second: morcego0005_81
+  - first:
+      213: 6148189789128715360
+    second: morcego0005_82
+  - first:
+      213: 828194560821055980
+    second: morcego0005_83
+  - first:
+      213: 3931972878906820435
+    second: morcego0005_84
+  - first:
+      213: -8239277643590577314
+    second: morcego0005_85
+  - first:
+      213: 4383056980353813455
+    second: morcego0005_86
+  - first:
+      213: -7098150000726181116
+    second: morcego0005_87
+  - first:
+      213: -195171361444490162
+    second: morcego0005_88
+  - first:
+      213: -2394820045908332383
+    second: morcego0005_89
+  - first:
+      213: -8759824080860043880
+    second: morcego0005_90
+  - first:
+      213: 5965824369742330520
+    second: morcego0005_91
+  - first:
+      213: -8484594238124520559
+    second: morcego0005_92
+  - first:
+      213: -4145146504570521053
+    second: morcego0005_93
+  - first:
+      213: -8436594410788568240
+    second: morcego0005_94
+  - first:
+      213: -5412167752899157210
+    second: morcego0005_95
+  - first:
+      213: 2345810335058694904
+    second: morcego0005_96
+  - first:
+      213: -4291963357302285574
+    second: morcego0005_97
+  - first:
+      213: -4789401018263989840
+    second: morcego0005_98
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: morcego0005_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 136
+        width: 903
+        height: 596
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 728f2645d6c66b050800000000000000
+      internalID: 5815955185618581543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_1
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 726
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1876421be0daeb2d0800000000000000
+      internalID: -3260978801556559999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_2
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 718
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5920a5d1a60964dd0800000000000000
+      internalID: -2502153757524360555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_3
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 727
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e58e0860480cf7860800000000000000
+      internalID: 7529948775264086110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_4
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 736
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 995135cd2a552fab0800000000000000
+      internalID: -4975820480321481319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_5
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 751
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bfb94c0420fcac20800000000000000
+      internalID: 3219211871278710709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_6
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 786
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c4ff7388ba5f6d0800000000000000
+      internalID: -2957268978755482584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_7
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 727
+        width: 87
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 358e8d0a62ac8db10800000000000000
+      internalID: 2006575901249693779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_8
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 755
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55fbcd72a2597bdb0800000000000000
+      internalID: -4776184871513178283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_9
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 733
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e70d4241d2d17b00800000000000000
+      internalID: 824672002987853795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_10
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 720
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3384bd55e5ae7cea0800000000000000
+      internalID: -5852451499856410573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_11
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 740
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3e1c7d1bf314d20800000000000000
+      internalID: 3260957638254519278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_12
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 721
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf2b66507d9c900d0800000000000000
+      internalID: -3456009313684376837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_13
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 727
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af846bf2c8840a30800000000000000
+      internalID: 4180616725129367457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_14
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 624
+        width: 180
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d97e4f9829c575a0800000000000000
+      internalID: -6524087308867700266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_15
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 755
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48105474af09119e0800000000000000
+      internalID: -1652380183656332924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_16
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 775
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8a554b257809f40800000000000000
+      internalID: 5733231114925222102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_17
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 776
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d258a757f85f9f430800000000000000
+      internalID: 3817352155673298221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_18
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 774
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f09c53cf2aabf3e0800000000000000
+      internalID: -2018832885827727112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_19
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 780
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4245a525ed7235820800000000000000
+      internalID: 2905710020401976356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_20
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 778
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 492f27f4eaf91e0b0800000000000000
+      internalID: -5701100082268278124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_21
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 638
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092fc6c62e9960040800000000000000
+      internalID: 4613544066048389776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_22
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 630
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b28674dd2e0998960800000000000000
+      internalID: 7604768749841246251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_23
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 608
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96edacc2a2be5a930800000000000000
+      internalID: 4153984797691797097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_24
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 610
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b015c5bbbb495aa0800000000000000
+      internalID: -6171818544753995592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_25
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 622
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a7148fdd2905eb10800000000000000
+      internalID: 2010022901318948769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_26
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 616
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c2c1862d48484530800000000000000
+      internalID: 3839398178529067717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_27
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 603
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b6094e4fc63de80800000000000000
+      internalID: -8155054701175346330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_28
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 529
+        width: 89
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a7fd01f840375960800000000000000
+      internalID: 7590588786796263333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_29
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 601
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 208b946772a4a1220800000000000000
+      internalID: 2457358080032749570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_30
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 597
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c42bd5ecb5fe700800000000000000
+      internalID: 571776619592698908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_31
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 598
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9134b4013cee480800000000000000
+      internalID: -8867936141496346140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_32
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 603
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5741e5dd2324277d0800000000000000
+      internalID: -2922200421980302219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_33
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 610
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d7dee837397dd10800000000000000
+      internalID: 2150349471621152117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_34
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 596
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e36fbdee78a26670800000000000000
+      internalID: 8530565907301229544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_35
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 597
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd059780b5e5e15e0800000000000000
+      internalID: -1937007044645531429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_36
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 589
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 105102999b9fb27d0800000000000000
+      internalID: -2941983356023204607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_37
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 598
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab5a5925602f1e20800000000000000
+      internalID: 3323410668880288679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_38
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 592
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b899784507f007690800000000000000
+      internalID: -7606562795499841141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_39
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 591
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec371bb499bc8f600800000000000000
+      internalID: 502375217712165838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_40
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 592
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616e1d6e6754e4ec0800000000000000
+      internalID: -3580848276731992554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_41
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 578
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ee673cee1f656a0800000000000000
+      internalID: -6460710607632535956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_42
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 589
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d3253588595c960800000000000000
+      internalID: 7621662357140422039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_43
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 577
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9028a7f58f40fa30800000000000000
+      internalID: 4246981885414613147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_44
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 577
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d719ef61c04a0aea0800000000000000
+      internalID: -5863506343004040835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_45
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 570
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc397104ec6a064f0800000000000000
+      internalID: -837486125922151473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_46
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 546
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b872f66f739289d70800000000000000
+      internalID: 9050028771535431563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_47
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 571
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0fd0541e5839840800000000000000
+      internalID: 5229670794879955163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_48
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 575
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6cdf8774b8b01b0800000000000000
+      internalID: -5689300565163653410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_49
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 577
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc4ae0cc64f29fe0800000000000000
+      internalID: -1183615004114793252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_50
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 568
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce4d40952441cf40800000000000000
+      internalID: 5746949527626927817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_51
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 562
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ac7c35071b554a0800000000000000
+      internalID: -6605178182468908389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_52
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 563
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 892c06a2d7b7c91f0800000000000000
+      internalID: -1036818036689943912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_53
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 553
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c63a2199bfaa070800000000000000
+      internalID: 8118577913150008436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_54
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 547
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6cef3eae3398e140800000000000000
+      internalID: 4749207704482868335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_55
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 553
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d50115798251c9c0800000000000000
+      internalID: -3908752251252832814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_56
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 549
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee56cdbf66a31c90800000000000000
+      internalID: -7200228380379816210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_57
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 552
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8376b386aa0a15c60800000000000000
+      internalID: 7805196282963388216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_58
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 547
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ad355dd1aed9af90800000000000000
+      internalID: -6941772563830456921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_59
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 548
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b641f393e23cc20800000000000000
+      internalID: 3225472581533723501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_60
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 547
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb63bb15c92cd8f40800000000000000
+      internalID: 5732451877354419900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_61
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 553
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda58e7c24651c5e0800000000000000
+      internalID: -1891135523697173797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_62
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 553
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8565c2ce06923a20800000000000000
+      internalID: 3040657688569931146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_63
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 529
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a53b1b2682d7fb00800000000000000
+      internalID: 862389327355393446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_64
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 538
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e22cd733e1798d7d0800000000000000
+      internalID: -2893396604616850898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_65
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 537
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 225274c4ebb041820800000000000000
+      internalID: 2887946173002753314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_66
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 541
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf36fb66624a0040800000000000000
+      internalID: 4614573775859892141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_67
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 536
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9639bdcc39302f230800000000000000
+      internalID: 3671000579592393577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_68
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 533
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0797523576be9560800000000000000
+      internalID: 7322490658623035151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_69
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 537
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 492f934c512f462f0800000000000000
+      internalID: -980392643559558508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_70
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 526
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0984b4ed7e9fe41d0800000000000000
+      internalID: -3364477097336944496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_71
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 526
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76245da4358c3a5f0800000000000000
+      internalID: -746532853150039449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_72
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 506
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c18aee05d08b0230800000000000000
+      internalID: 3606117579206853056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_73
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 519
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91b7395e2f5fea20800000000000000
+      internalID: 3093796121696776605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_74
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 525
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da8adf26efe5739e0800000000000000
+      internalID: -1641739092477761363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_75
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 524
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39e54b0cb6475980800000000000000
+      internalID: -8550287594082670273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_76
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 523
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72fc4cf466be0d3d0800000000000000
+      internalID: -3183786111893450969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_77
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 525
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c118f3c4fe9b1c0800000000000000
+      internalID: -4487292442936009695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_78
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 524
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f7b79c737104510800000000000000
+      internalID: 1531249401676922654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_79
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 528
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95622d54000dac720800000000000000
+      internalID: 2867332812364719705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_80
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 509
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7fd202fe60c0c530800000000000000
+      internalID: 3873307262277836667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_81
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 512
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 859854aa2e0ae4ad0800000000000000
+      internalID: -2716056629878093480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_82
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 514
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c63b8e902c25550800000000000000
+      internalID: 6148189789128715360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_83
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 505
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce156aaa0965e7b00800000000000000
+      internalID: 828194560821055980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_84
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 495
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35706b9308c219630800000000000000
+      internalID: 3931972878906820435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_85
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 503
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5357fff2a438ad80800000000000000
+      internalID: -8239277643590577314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_86
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 497
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb0948e91fb3dc30800000000000000
+      internalID: 4383056980353813455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_87
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 497
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40bf6449e2e4e7d90800000000000000
+      internalID: -7098150000726181116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_88
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 487
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4495ca4eac9a4df0800000000000000
+      internalID: -195171361444490162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_89
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 493
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a036a64bd3e3ced0800000000000000
+      internalID: -2394820045908332383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_90
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 484
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895ac65f86ade6680800000000000000
+      internalID: -8759824080860043880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_91
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 482
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a3cdee7addac250800000000000000
+      internalID: 5965824369742330520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_92
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 487
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b03456e7aa04a80800000000000000
+      internalID: -8484594238124520559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_93
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 297
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a3f1d473b7976c0800000000000000
+      internalID: -4145146504570521053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_94
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 300
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 053c6e615123bea80800000000000000
+      internalID: -8436594410788568240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_95
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 284
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6232f978a1e14e4b0800000000000000
+      internalID: -5412167752899157210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_96
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 276
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f21d93321efd8020800000000000000
+      internalID: 2345810335058694904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_97
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 273
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa110bf012ef64c0800000000000000
+      internalID: -4291963357302285574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morcego0005_98
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 254
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b11b733621a88db0800000000000000
+      internalID: -4789401018263989840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      morcego0005_0: 5815955185618581543
+      morcego0005_1: -3260978801556559999
+      morcego0005_10: -5852451499856410573
+      morcego0005_11: 3260957638254519278
+      morcego0005_12: -3456009313684376837
+      morcego0005_13: 4180616725129367457
+      morcego0005_14: -6524087308867700266
+      morcego0005_15: -1652380183656332924
+      morcego0005_16: 5733231114925222102
+      morcego0005_17: 3817352155673298221
+      morcego0005_18: -2018832885827727112
+      morcego0005_19: 2905710020401976356
+      morcego0005_2: -2502153757524360555
+      morcego0005_20: -5701100082268278124
+      morcego0005_21: 4613544066048389776
+      morcego0005_22: 7604768749841246251
+      morcego0005_23: 4153984797691797097
+      morcego0005_24: -6171818544753995592
+      morcego0005_25: 2010022901318948769
+      morcego0005_26: 3839398178529067717
+      morcego0005_27: -8155054701175346330
+      morcego0005_28: 7590588786796263333
+      morcego0005_29: 2457358080032749570
+      morcego0005_3: 7529948775264086110
+      morcego0005_30: 571776619592698908
+      morcego0005_31: -8867936141496346140
+      morcego0005_32: -2922200421980302219
+      morcego0005_33: 2150349471621152117
+      morcego0005_34: 8530565907301229544
+      morcego0005_35: -1937007044645531429
+      morcego0005_36: -2941983356023204607
+      morcego0005_37: 3323410668880288679
+      morcego0005_38: -7606562795499841141
+      morcego0005_39: 502375217712165838
+      morcego0005_4: -4975820480321481319
+      morcego0005_40: -3580848276731992554
+      morcego0005_41: -6460710607632535956
+      morcego0005_42: 7621662357140422039
+      morcego0005_43: 4246981885414613147
+      morcego0005_44: -5863506343004040835
+      morcego0005_45: -837486125922151473
+      morcego0005_46: 9050028771535431563
+      morcego0005_47: 5229670794879955163
+      morcego0005_48: -5689300565163653410
+      morcego0005_49: -1183615004114793252
+      morcego0005_5: 3219211871278710709
+      morcego0005_50: 5746949527626927817
+      morcego0005_51: -6605178182468908389
+      morcego0005_52: -1036818036689943912
+      morcego0005_53: 8118577913150008436
+      morcego0005_54: 4749207704482868335
+      morcego0005_55: -3908752251252832814
+      morcego0005_56: -7200228380379816210
+      morcego0005_57: 7805196282963388216
+      morcego0005_58: -6941772563830456921
+      morcego0005_59: 3225472581533723501
+      morcego0005_6: -2957268978755482584
+      morcego0005_60: 5732451877354419900
+      morcego0005_61: -1891135523697173797
+      morcego0005_62: 3040657688569931146
+      morcego0005_63: 862389327355393446
+      morcego0005_64: -2893396604616850898
+      morcego0005_65: 2887946173002753314
+      morcego0005_66: 4614573775859892141
+      morcego0005_67: 3671000579592393577
+      morcego0005_68: 7322490658623035151
+      morcego0005_69: -980392643559558508
+      morcego0005_7: 2006575901249693779
+      morcego0005_70: -3364477097336944496
+      morcego0005_71: -746532853150039449
+      morcego0005_72: 3606117579206853056
+      morcego0005_73: 3093796121696776605
+      morcego0005_74: -1641739092477761363
+      morcego0005_75: -8550287594082670273
+      morcego0005_76: -3183786111893450969
+      morcego0005_77: -4487292442936009695
+      morcego0005_78: 1531249401676922654
+      morcego0005_79: 2867332812364719705
+      morcego0005_8: -4776184871513178283
+      morcego0005_80: 3873307262277836667
+      morcego0005_81: -2716056629878093480
+      morcego0005_82: 6148189789128715360
+      morcego0005_83: 828194560821055980
+      morcego0005_84: 3931972878906820435
+      morcego0005_85: -8239277643590577314
+      morcego0005_86: 4383056980353813455
+      morcego0005_87: -7098150000726181116
+      morcego0005_88: -195171361444490162
+      morcego0005_89: -2394820045908332383
+      morcego0005_9: 824672002987853795
+      morcego0005_90: -8759824080860043880
+      morcego0005_91: 5965824369742330520
+      morcego0005_92: -8484594238124520559
+      morcego0005_93: -4145146504570521053
+      morcego0005_94: -8436594410788568240
+      morcego0005_95: -5412167752899157210
+      morcego0005_96: 2345810335058694904
+      morcego0005_97: -4291963357302285574
+      morcego0005_98: -4789401018263989840
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

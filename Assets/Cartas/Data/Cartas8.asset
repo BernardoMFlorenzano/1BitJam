@@ -21,5 +21,6 @@ MonoBehaviour:
   - {fileID: 4170848323083609020, guid: da41b80d4c6edee4fbf053f0cfe9cd04, type: 3}
   - {fileID: 4170848323083609020, guid: a5678a30bda9d234bbdd909aa95b9581, type: 3}
   - {fileID: 4170848323083609020, guid: 7563b16d1f30fd34f8dfd06836a0a1cd, type: 3}
-  QuantHorCartas: 4
-  QuantVerCartas: 4
+  quantHorCartas: 4
+  quantVerCartas: 4
+  espacoEntreCartas: 0.1

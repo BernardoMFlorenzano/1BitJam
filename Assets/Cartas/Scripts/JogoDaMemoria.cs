@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class JogoDaMemoria : MonoBehaviour
 {   // Script que vai tratar a lógica do jogo da memoria e redirecionar os efeitos
@@ -10,6 +11,7 @@ public class JogoDaMemoria : MonoBehaviour
     public bool podeEscolher = true; // Para limitar quando o player pode escolher cartas (animacoes etc)
     public bool combina = true;
     private int cartaTipo;
+    private int contCombinacoes = 0;
 
     public void Interacao(ClickCarta carta) // Quando Player escolher uma carta
     {
@@ -50,6 +52,7 @@ public class JogoDaMemoria : MonoBehaviour
         if (combina)
         {
             Debug.Log("Acertou combinacao");
+            contCombinacoes++;
 
             int cont = 0;
             foreach (GameObject c in cartasSelecionadas)
@@ -68,6 +71,12 @@ public class JogoDaMemoria : MonoBehaviour
         }
 
         ResetaEscolhas();
+
+        if (contCombinacoes >= jogoDaMemoriaData.quantidadeCombinacoesWin)
+        {
+            // Ganha partida
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
 
 }

@@ -16,15 +16,15 @@ public class GeraCartas : MonoBehaviour
         cartasPoolCopia = new List<GameObject>(cartasData.cartasPool);
         cartasPoolCopia.AddRange(cartasPoolCopia);  // Duplicando a lista para ter os pares
 
-        for (int i = 0; i < cartasData.QuantHorCartas*2; i += 2)    // Multiplicando por 2 porque as cartas tem largura e altura de 2
+        for (float i = 0; i < cartasData.quantHorCartas*2; i += 2)    // Multiplicando por 2 porque as cartas tem largura e altura de 2
         {
-            for(int j = 0; j < cartasData.QuantVerCartas*2; j += 2)
+            for(float j = 0; j < cartasData.quantVerCartas*2; j += 2)
             {
                 if (cartasPoolCopia.Count > 0)  // Verifica se ainda tem cartas para spawnar
                 {
                     rand = Random.Range(0,cartasPoolCopia.Count);
                     cartaSpawnada = Instantiate(cartasPoolCopia[rand], this.transform);
-                    cartaSpawnada.transform.localPosition = new Vector2(i,j);
+                    cartaSpawnada.transform.localPosition = new Vector2(i + i*cartasData.espacoEntreCartas, j + j*cartasData.espacoEntreCartas);
                     cartasPoolCopia.Remove(cartasPoolCopia[rand]);
                 }
             }

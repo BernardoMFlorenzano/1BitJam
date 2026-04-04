@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2048967631335630076
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -1701380206084564150, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+      propertyPath: tipo
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -1701380206084564150, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+      propertyPath: spriteVirado
+      value: 
+      objectReference: {fileID: 8288426215254106694, guid: c1f8c20fd07eab74291b1e1fdcac8107, type: 3}
+    - target: {fileID: 142446769047752545, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 8288426215254106694, guid: c1f8c20fd07eab74291b1e1fdcac8107, type: 3}
+    - target: {fileID: 142446769047752545, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 142446769047752545, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 142446769047752545, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1696699821050342089, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4113829005332862926, guid: 043c03abc94498846b0e6c48474588c5, type: 3}
+    - target: {fileID: 2706295348009502528, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+      propertyPath: m_Name
+      value: Carta 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719706084171019850, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719706084171019850, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719706084171019850, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719706084171019850, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719706084171019850, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719706084171019850, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719706084171019850, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719706084171019850, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719706084171019850, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3719706084171019850, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -8212219113705677785, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2706295348009502528, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -6890938262757921636}
+  m_SourcePrefab: {fileID: 100100000, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+--- !u!1 &4170848323083609020 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2706295348009502528, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+  m_PrefabInstance: {fileID: 2048967631335630076}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-6890938262757921636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4170848323083609020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffd74eeae9b512c438eaa3bdec0c45c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CartaTipo9
+  spriteRenderer: {fileID: 0}
+  spriteCoberto: {fileID: 21300000, guid: 3ed8300a6064d0c48b57c8284dce0551, type: 3}
+  spriteVirado: {fileID: 4113829005332862926, guid: 043c03abc94498846b0e6c48474588c5, type: 3}
+  spriteUsado: {fileID: -6856151403513613314, guid: a9b2516684841b54cac1c8e9e239326b, type: 3}
+  interagivel: 1
+  tipo: 9
+  prefabTrampolim: {fileID: 2626993525533423417, guid: f89ed909aff2e0346a0d6a7514c865f4, type: 3}

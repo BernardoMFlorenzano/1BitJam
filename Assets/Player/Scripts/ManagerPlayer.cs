@@ -1,32 +1,27 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class ManagerPlayer : MonoBehaviour
 {
-    
+    public float tempoAnimMorte;
+    private PausaJogo pausaJogo;
+    private GameObject player;
+    private Animator animatorPlayer;
+    private bool podeMorrer = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-       EventosManager.Caiu +=  QuedaPlayer;
-       EventosManager.DanoPlayer += DanoPlayer;
-    }
+        pausaJogo = GetComponent<PausaJogo>();
+        player = GameObject.FindGameObjectWithTag("Player");
+        animatorPlayer = player.GetComponentInChildren<Animator>();
 
-    void QuedaPlayer()  // Trata o que acontece na queda
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
+        EventosManager.Caiu +=  QuedaPlayer;
+        EventosManager.DanoPlayer += DanoPlayer;
 
-    void DanoPlayer()   // Trata o que acontece ao levar dano
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        podeMorrer = true; 
     }
 
     private void OnDisable()
@@ -34,4 +29,31 @@ public class ManagerPlayer : MonoBehaviour
         EventosManager.Caiu -= QuedaPlayer;
         EventosManager.DanoPlayer -= DanoPlayer;
     }
+
+    void QuedaPlayer()  // Trata o que acontece na queda
+    {
+        if (podeMorrer)
+        {
+            podeMorrer = false;
+            StartCoroutine(MortePlayerDano());   
+        }
+    }
+
+    void DanoPlayer()   // Trata o que acontece ao levar dano
+    {
+        if (podeMorrer)
+        {
+            podeMorrer = false;
+            StartCoroutine(MortePlayerDano());   
+        }
+    }
+
+    IEnumerator MortePlayerDano()
+    {
+        animatorPlayer.SetTrigger("morte");
+        pausaJogo.PausaLogica();
+        yield return new WaitForSecondsRealtime(tempoAnimMorte);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+    
 }

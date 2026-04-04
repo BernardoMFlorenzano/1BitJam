@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3237753592109369382}
   - component: {fileID: 4773103337582855035}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -1892346249
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 8634848303831259367, guid: 59474f175f627b74db8403a12e2772bc, type: 3}
@@ -102,8 +102,7 @@ GameObject:
   - component: {fileID: 2190589557926728727}
   - component: {fileID: 544764253020603910}
   - component: {fileID: 117006335788206892}
-  - component: {fileID: 4623962652821552898}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Twhomp
   m_TagString: Inimigo
   m_Icon: {fileID: 0}
@@ -183,7 +182,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -199,15 +198,3 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.85, y: 0.85}
   m_EdgeRadius: 0
---- !u!114 &4623962652821552898
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7121527464484855370}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e7dcdadb17cc344db5250acef4817c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ColisorDano
