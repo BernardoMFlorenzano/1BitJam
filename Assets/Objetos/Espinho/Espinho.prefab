@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6856906617078705685}
-  - component: {fileID: 8903380699031896112}
   - component: {fileID: 7453104764122371527}
+  - component: {fileID: 2554793834435672721}
   m_Layer: 0
   m_Name: Espinho
   m_TagString: Untagged
@@ -34,18 +34,6 @@ Transform:
   - {fileID: 8816811913568737475}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8903380699031896112
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2858070035107750940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 286773e2627ee5c4ba962628fd927e0e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Espinho
 --- !u!61 &7453104764122371527
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -92,6 +80,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.65, y: 0.65}
   m_EdgeRadius: 0
+--- !u!114 &2554793834435672721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2858070035107750940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e7dcdadb17cc344db5250acef4817c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ColisorDano
+  tempoDelay: 0.5
+  pulavel: 1
 --- !u!1 &8863981218628824720
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,6 +5,7 @@ public class ColisorDano : MonoBehaviour
 {
     private bool ativo = false; // Pro player não morrer imediatamente
     public float tempoDelay = 0.5f;
+    public bool pulavel = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -21,8 +22,15 @@ public class ColisorDano : MonoBehaviour
     {
         if (collision.CompareTag("ColisorPlayer") && ativo)
         {
-            EventosManager.TriggerDanoPlayer();
-            Debug.Log("Dano player");
+            if (pulavel)
+            {
+                if (!collision.GetComponentInParent<MovimentoPlayer>().pulando)
+                {
+                    EventosManager.TriggerDanoPlayer();  
+                }
+            }
+            else
+                EventosManager.TriggerDanoPlayer();
         }
     }
 
