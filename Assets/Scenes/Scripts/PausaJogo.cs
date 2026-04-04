@@ -4,6 +4,14 @@ public class PausaJogo : MonoBehaviour
 {
     public bool pausado = false;
     public bool podeDespausar = true;
+
+
+    void Awake()
+    {
+        Time.timeScale = 1f;
+        pausado = false;
+    }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

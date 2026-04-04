@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2706295348009502528}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -93,9 +93,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CartaTipo1
   spriteRenderer: {fileID: 0}
+  animator: {fileID: 0}
   spriteCoberto: {fileID: 21300000, guid: 3ed8300a6064d0c48b57c8284dce0551, type: 3}
-  spriteVirado: {fileID: -855298285791758126, guid: 7b1979f2f6cf1044fa0593ca0d00b9c3, type: 3}
-  spriteUsado: {fileID: -6856151403513613314, guid: a9b2516684841b54cac1c8e9e239326b, type: 3}
+  spriteVirado: {fileID: 21300000, guid: 89881e4a7d76b1a449d8f7820fa9bb41, type: 3}
+  spriteUsado: {fileID: 21300000, guid: 89881e4a7d76b1a449d8f7820fa9bb41, type: 3}
   interagivel: 1
   tipo: 1
 --- !u!1 &8923970065342901037
@@ -108,6 +109,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4980251758134874715}
   - component: {fileID: 8472220270046129657}
+  - component: {fileID: 3629053410884911532}
   m_Layer: 6
   m_Name: Sprite
   m_TagString: Untagged
@@ -176,10 +178,10 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -1259897487
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 3ed8300a6064d0c48b57c8284dce0551, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 89881e4a7d76b1a449d8f7820fa9bb41, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -189,3 +191,25 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!95 &3629053410884911532
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8923970065342901037}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d899c9ddf38149846a8d8cf9860cff5b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

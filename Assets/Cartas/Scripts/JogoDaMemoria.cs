@@ -34,7 +34,7 @@ public class JogoDaMemoria : MonoBehaviour
 
         if (cartasSelecionadas.Count == jogoDaMemoriaData.combinacoesCartas)
         {
-            StartCoroutine(Resultado(1f));
+            StartCoroutine(Resultado(jogoDaMemoriaData.tempoDelayResultado));
         }
     }
 

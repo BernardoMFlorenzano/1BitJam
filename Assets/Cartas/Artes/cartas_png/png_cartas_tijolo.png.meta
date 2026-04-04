@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f6f66d55b0025364088e12b96d1fae9b
+guid: d8b88a5558b23dd43ad3b5d04018fc9d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7261888419942410101
-    second: morcego0001_0
+      213: 6228454724896811666
+    second: png_cartas_tijolo_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: morcego0001_0
+      name: png_cartas_tijolo_0
       rect:
         serializedVersion: 2
-        x: 27
-        y: 152
-        width: 963
-        height: 642
+        x: 0
+        y: 0
+        width: 1000
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 577a035fa0967c460800000000000000
-      internalID: 7261888419942410101
+      spriteID: 29ae311929aef6650800000000000000
+      internalID: 6228454724896811666
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      morcego0001_0: 7261888419942410101
+      png_cartas_tijolo_0: 6228454724896811666
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

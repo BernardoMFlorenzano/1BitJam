@@ -80,6 +80,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8472220270046129657, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3a2793834b6271147af866f6d3b7a03a, type: 3}
     m_RemovedComponents:
     - {fileID: -8212219113705677785, guid: 8ec42d54d80372548b044b1751688503, type: 3}
     m_RemovedGameObjects: []
@@ -108,8 +112,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CartaTipo9
   spriteRenderer: {fileID: 0}
   spriteCoberto: {fileID: 21300000, guid: 3ed8300a6064d0c48b57c8284dce0551, type: 3}
-  spriteVirado: {fileID: 4113829005332862926, guid: 043c03abc94498846b0e6c48474588c5, type: 3}
-  spriteUsado: {fileID: -6856151403513613314, guid: a9b2516684841b54cac1c8e9e239326b, type: 3}
+  spriteVirado: {fileID: 21300000, guid: 3a2793834b6271147af866f6d3b7a03a, type: 3}
+  spriteUsado: {fileID: 21300000, guid: 3a2793834b6271147af866f6d3b7a03a, type: 3}
   interagivel: 1
   tipo: 9
   prefabTrampolim: {fileID: 2626993525533423417, guid: f89ed909aff2e0346a0d6a7514c865f4, type: 3}

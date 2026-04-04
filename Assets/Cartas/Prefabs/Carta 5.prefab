@@ -80,6 +80,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8472220270046129657, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+      propertyPath: m_Size.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8472220270046129657, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+      propertyPath: m_Size.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8472220270046129657, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 04484e4d163d1524ba292db84476d816, type: 3}
+    - target: {fileID: 8472220270046129657, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -8212219113705677785, guid: 8ec42d54d80372548b044b1751688503, type: 3}
     m_RemovedGameObjects: []
@@ -107,9 +123,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CartaTipo5
   spriteRenderer: {fileID: 0}
+  animator: {fileID: 0}
   spriteCoberto: {fileID: 21300000, guid: 3ed8300a6064d0c48b57c8284dce0551, type: 3}
-  spriteVirado: {fileID: 4130640169021434097, guid: cac881e79052b544daba2370ec7aa924, type: 3}
-  spriteUsado: {fileID: -6856151403513613314, guid: a9b2516684841b54cac1c8e9e239326b, type: 3}
+  spriteVirado: {fileID: 21300000, guid: 04484e4d163d1524ba292db84476d816, type: 3}
+  spriteUsado: {fileID: 21300000, guid: d8b88a5558b23dd43ad3b5d04018fc9d, type: 3}
   interagivel: 1
   tipo: 5
   prefabTwhomp: {fileID: 7121527464484855370, guid: 090cf4820ca6b25428c50378ae231e9e, type: 3}

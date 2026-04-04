@@ -6,5 +6,5 @@ public class JogoDaMemoriaData : ScriptableObject
     public int combinacoesCartas = 2;   // Se são duplas, trios etc
     public int quantidadeCombinacoesWin;    // Quantidade minima de combinacoes para ganhar
 
-    
+    public float tempoDelayResultado = 1f;
 }

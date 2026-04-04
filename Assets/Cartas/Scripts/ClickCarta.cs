@@ -1,3 +1,4 @@
+using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -6,6 +7,7 @@ public class ClickCarta : MonoBehaviour, IPointerDownHandler, IPointerUpHandler,
 {
     protected JogoDaMemoria jogoDaMemoria;  // protected inves de private para poder usar em classes filhas
     public SpriteRenderer spriteRenderer;
+    public Animator animator;
     public Sprite spriteCoberto;
     public Sprite spriteVirado;
     public Sprite spriteUsado;
@@ -15,6 +17,7 @@ public class ClickCarta : MonoBehaviour, IPointerDownHandler, IPointerUpHandler,
     void Awake()
     {
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        animator = GetComponentInChildren<Animator>();
         spriteRenderer.sprite = spriteCoberto;  
     }
 
@@ -27,7 +30,11 @@ public class ClickCarta : MonoBehaviour, IPointerDownHandler, IPointerUpHandler,
     {
         if (interagivel && jogoDaMemoria.podeEscolher)
         {
-            spriteRenderer.sprite = spriteVirado;
+            //spriteRenderer.sprite = spriteVirado;
+            animator.SetBool("acerta", false);
+            animator.SetBool("reseta", false);
+            animator.SetTrigger("seleciona");
+            animator.SetBool("selecionada", true);
 
             jogoDaMemoria.Interacao(this);
             interagivel = false;
@@ -40,13 +47,28 @@ public class ClickCarta : MonoBehaviour, IPointerDownHandler, IPointerUpHandler,
     {
         // Gera efeitos
         spriteRenderer.sprite = spriteUsado;
+        animator.SetBool("acerta", true);
+        animator.SetBool("selecionada", false);
+
         Debug.Log("Gerou efeito " + tipo);
     }
 
     public void ResetaCarta()
     {
-        spriteRenderer.sprite = spriteCoberto;
+        //spriteRenderer.sprite = spriteCoberto;
+
+        animator.SetBool("reseta", true);
+        animator.SetBool("selecionada", false);
+        
         interagivel = true;
+    }
+
+    public void FlipSprite()
+    {
+        if (spriteRenderer.sprite == spriteCoberto)
+            spriteRenderer.sprite = spriteVirado;
+        else if (spriteRenderer.sprite == spriteVirado)
+            spriteRenderer.sprite = spriteCoberto;
     }
 
 

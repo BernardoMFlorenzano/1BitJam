@@ -6,6 +6,6 @@ public class CartaTipo1 : ClickCarta
     {
         base.EfeitoCarta(num);
 
-        spriteRenderer.sprite = spriteUsado;
+        //spriteRenderer.sprite = spriteUsado;
     }
 }

@@ -111,6 +111,8 @@ public class MovimentoPlayer : MonoBehaviour
 
         yield return new WaitForSeconds(duracaoPulo/2);
 
+        spriteRenderer.transform.localScale = new Vector2(1.2f,1.2f);
+
         yield return new WaitForSeconds(duracaoPulo/2);
 
         animator.SetTrigger("descendo");

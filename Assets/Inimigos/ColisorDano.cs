@@ -22,6 +22,7 @@ public class ColisorDano : MonoBehaviour
         if (collision.CompareTag("ColisorPlayer") && ativo)
         {
             EventosManager.TriggerDanoPlayer();
+            Debug.Log("Dano player");
         }
     }
 

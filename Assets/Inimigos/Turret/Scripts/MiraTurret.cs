@@ -6,6 +6,7 @@ public class MiraTurret : MonoBehaviour
 {
     [SerializeField] private TurretData turretData;
     private Transform player;
+    private Animator animator;
     public GameObject prefabFlecha;
 
     private GameObject flechaAtirada;
@@ -17,6 +18,7 @@ public class MiraTurret : MonoBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        animator = GetComponentInChildren<Animator>();
 
         StartCoroutine(CooldownTiro());
         StartCoroutine(AtiraFlecha());
@@ -47,6 +49,9 @@ public class MiraTurret : MonoBehaviour
 
                 flechaAtirada = Instantiate(prefabFlecha, transform.position, transform.rotation);
                 flechaAtirada.GetComponent<Rigidbody2D>().linearVelocity = rotacaoMira.normalized * turretData.flechaVel;
+
+                animator.SetTrigger("Atira");
+
                 StartCoroutine(CooldownTiro());
                 yield return new WaitForSeconds(turretData.delayPosTiro);
                 recuperando = false;

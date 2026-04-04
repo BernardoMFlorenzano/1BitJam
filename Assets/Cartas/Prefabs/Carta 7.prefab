@@ -80,6 +80,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8472220270046129657, guid: 8ec42d54d80372548b044b1751688503, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: dc8609384dbc2e744a707bcd75c36ce4, type: 3}
     m_RemovedComponents:
     - {fileID: -8212219113705677785, guid: 8ec42d54d80372548b044b1751688503, type: 3}
     m_RemovedGameObjects: []
@@ -108,8 +112,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CartaTipo7
   spriteRenderer: {fileID: 0}
   spriteCoberto: {fileID: 21300000, guid: 3ed8300a6064d0c48b57c8284dce0551, type: 3}
-  spriteVirado: {fileID: 7028616704906629411, guid: 0c5a0452300ab7a488c33751f664463a, type: 3}
-  spriteUsado: {fileID: -6856151403513613314, guid: a9b2516684841b54cac1c8e9e239326b, type: 3}
+  spriteVirado: {fileID: 21300000, guid: dc8609384dbc2e744a707bcd75c36ce4, type: 3}
+  spriteUsado: {fileID: 21300000, guid: 89881e4a7d76b1a449d8f7820fa9bb41, type: 3}
   interagivel: 1
   tipo: 7
   delayTroca: 1
