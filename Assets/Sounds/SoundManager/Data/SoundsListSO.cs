@@ -12,4 +12,7 @@ public class SoundsListSO : ScriptableObject
     public AudioClip trampolimSound;
     public AudioClip selectSound;
 
+    public AudioClip menuMusic;
+    public AudioClip gameMusic;
+
 }

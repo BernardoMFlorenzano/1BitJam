@@ -11,18 +11,7 @@ public class SoundManager : MonoBehaviour
     [SerializeField] private AudioSource _musicSource;
 
 
-    [Header("--SoundSFX---")]
-    public AudioClip jumpSound;
-    public AudioClip laserSound;
-    public AudioClip successSound;
-    public AudioClip failSound;
-    public AudioClip creatureSound;
-    public AudioClip trasitionSound;
-
-
-    [Header("--Musics---")]
-    public AudioClip gameMusic;
-    public AudioClip menuMusic;
+    public SoundsListSO SoundList;
 
     private void Awake()
     {
@@ -38,15 +27,16 @@ public class SoundManager : MonoBehaviour
 
        
     }
-
+    
     void Start()
     {
         if (SceneManager.GetActiveScene().name == "MainMenu" || SceneManager.GetActiveScene().name == "FinalMenu")
-            Music(menuMusic);
+            Music(SoundList.menuMusic);
 
         else
-            Music(gameMusic);
+            Music(SoundList.gameMusic);
     }
+    
 
     public void PlaySoundFXClip(AudioClip audioClip, Transform spawnTransform, float volume = 1f, float pitch = 1f)
     {
