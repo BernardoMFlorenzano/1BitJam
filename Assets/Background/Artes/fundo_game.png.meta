@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 35a6e3b4b4120e0488d7b858274ce9cd
+guid: bdebbca79347b5d40ae4982f7c1747e1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2604601766364389242
-    second: dog_run0003_0
-  - first:
-      213: -945424776002417601
-    second: dog_run0003_1
-  - first:
-      213: -5389472033369081432
-    second: dog_run0003_2
+      213: -3163577994702654053
+    second: fundo_game_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -57,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 200
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -119,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dog_run0003_0
+      name: fundo_game_0
       rect:
         serializedVersion: 2
-        x: 78
-        y: 10
-        width: 230
-        height: 355
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,52 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 680ee764e789adbd0800000000000000
-      internalID: -2604601766364389242
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dog_run0003_1
-      rect:
-        serializedVersion: 2
-        x: 296
-        y: 271
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f3cc580ec2d21e2f0800000000000000
-      internalID: -945424776002417601
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dog_run0003_2
-      rect:
-        serializedVersion: 2
-        x: 299
-        y: 210
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8a932248dbfb435b0800000000000000
-      internalID: -5389472033369081432
+      spriteID: b95718e3396b814d0800000000000000
+      internalID: -3163577994702654053
       vertices: []
       indices: 
       edges: []
@@ -198,9 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      dog_run0003_0: -2604601766364389242
-      dog_run0003_1: -945424776002417601
-      dog_run0003_2: -5389472033369081432
+      fundo_game_0: -3163577994702654053
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

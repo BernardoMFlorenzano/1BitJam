@@ -46,6 +46,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Fundo
+    uniqueID: 2670505299
+    locked: 0
   - name: Cartas
     uniqueID: 3035069809
     locked: 0

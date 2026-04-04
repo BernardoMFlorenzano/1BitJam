@@ -19,6 +19,7 @@ public class MovimentoPlayer : MonoBehaviour
     private Coroutine corPulo;
     private Collider2D cartaSelect;
     private SpriteRenderer spriteRenderer;
+    private Animator animator;
 
     
 
@@ -28,6 +29,7 @@ public class MovimentoPlayer : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         colliderCai = GetComponent<CircleCollider2D>();
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        animator = GetComponentInChildren<Animator>();
         //velMov = playerData.velMov;
     }
 
@@ -41,6 +43,7 @@ public class MovimentoPlayer : MonoBehaviour
         {
             transform.rotation = Quaternion.LookRotation(Vector3.forward, -direcao);
         }
+
     }
 
     public void OnJump()
@@ -72,10 +75,12 @@ public class MovimentoPlayer : MonoBehaviour
             spriteRenderer.transform.localScale = new Vector2(1f,1f);
             StopCoroutine(corPulo);
             corPulo = null;
-            velMult = 1f; // Reseta a velocidade quando cai (gosma)
         }
         podeCair = true;
         pulando = false;
+
+        velMult = 1f; // Reseta a velocidade quando cai (gosma)
+        animator.SetTrigger("descendo");
 
         if (cartaSelect = Physics2D.OverlapPoint(transform.position, cartasLayer))
         {
@@ -95,17 +100,20 @@ public class MovimentoPlayer : MonoBehaviour
             Debug.Log("Caiu");
             EventosManager.TriggerCaiu();
         }   
+
+        animator.SetFloat("vel", MathF.Abs(rb.linearVelocityX + rb.linearVelocityY)/2);
     }
 
     IEnumerator Pulo(float duracaoPulo)
     {
         spriteRenderer.transform.localScale = new Vector2(1.1f,1.1f);
+        animator.SetTrigger("subindo");
 
         yield return new WaitForSeconds(duracaoPulo/2);
 
-        // Meio do pulo, troca animações
-
         yield return new WaitForSeconds(duracaoPulo/2);
+
+        animator.SetTrigger("descendo");
 
         spriteRenderer.transform.localScale = new Vector2(1f,1f);
         podeCair = true;
