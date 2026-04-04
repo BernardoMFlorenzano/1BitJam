@@ -48,7 +48,7 @@ public class SoundManager : MonoBehaviour
             Music(gameMusic);
     }
 
-    public void PlaySoundFXClip(AudioClip audioClip, Transform spawnTransform, float volume, float pitch = 1f)
+    public void PlaySoundFXClip(AudioClip audioClip, Transform spawnTransform, float volume = 1f, float pitch = 1f)
     {
         AudioSource audioSource = Instantiate(_audioSource, spawnTransform.position, Quaternion.identity);
 
