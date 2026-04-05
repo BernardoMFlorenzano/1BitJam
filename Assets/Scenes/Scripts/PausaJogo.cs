@@ -7,7 +7,7 @@ public class PausaJogo : MonoBehaviour
     public bool podeDespausar = true;
     public Animator animatorCamera;
     [SerializeField] private GameObject menuPausa;
-
+    
 
     void Awake()
     {

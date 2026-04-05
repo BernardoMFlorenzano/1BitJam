@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class TutorialScroll : MonoBehaviour
@@ -9,22 +10,33 @@ public class TutorialScroll : MonoBehaviour
 
     private void Start()
     {
-        for(int i =0; i < scrollList.Length; i++)
+
+        StartCoroutine(GoUp());
+
+    }
+
+
+    private IEnumerator GoUp()
+    {
+        while (true)
         {
-            scrollList[i].SetActive(true);
+            for (int i = 0; i < scrollList.Length; i++)
+            {
+                scrollList[i].SetActive(true);
+
+                yield return new WaitForSeconds(betweenTime);
+
+
+            }
+
+            yield return new WaitForSeconds(betweenCiclesTime);
+
+            for (int i = 0; i < scrollList.Length; i++)
+            {
+                scrollList[i].SetActive(false);
+            }
             
-            new WaitForSeconds(betweenTime);
-
-
         }
-
-        new WaitForSeconds(betweenCiclesTime);
-
-        for (int i = 0; i < scrollList.Length; i++)
-        {
-            scrollList[i].SetActive(false);
-        }
-
-
+        yield return null;
     }
 }
