@@ -1607,7 +1607,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfaca578f144fd54285e137348685316, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::JogoDaMemoria
-  jogoDaMemoriaData: {fileID: 11400000, guid: e82fb088d7f43d844b78eeded3c6a815, type: 2}
+  jogoDaMemoriaData: {fileID: 11400000, guid: 7b159b193cc3f6c45a1facaf19e16168, type: 2}
   desenhoWin: {fileID: 5186195546103493279, guid: c9070df00851323449028477c0504aa6, type: 3}
   cartasSelecionadas: []
   podeEscolher: 1
@@ -1871,7 +1871,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7817973719c14ca47a92913607556fb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GeraCartas
-  cartasData: {fileID: 11400000, guid: b60e60a21fe0c4e40b7531920b2875d0, type: 2}
+  cartasData: {fileID: 11400000, guid: 198bfdb47203b614ab5bbc5f66280081, type: 2}
 --- !u!4 &1820097983
 Transform:
   m_ObjectHideFlags: 0
@@ -1881,7 +1881,7 @@ Transform:
   m_GameObject: {fileID: 1820097981}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.3, y: -3.3, z: 0}
+  m_LocalPosition: {x: -2.42, y: -1.64, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

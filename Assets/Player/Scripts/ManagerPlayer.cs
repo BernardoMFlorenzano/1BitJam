@@ -7,6 +7,7 @@ public class ManagerPlayer : MonoBehaviour
 {
     public float tempoAnimMorte;
     private PausaJogo pausaJogo;
+    private GameObject menuMorte;
     private GameObject player;
     private Animator animatorPlayer;
     private bool podeMorrer = false;
@@ -17,9 +18,11 @@ public class ManagerPlayer : MonoBehaviour
         pausaJogo = GetComponent<PausaJogo>();
         player = GameObject.FindGameObjectWithTag("Player");
         animatorPlayer = player.GetComponentInChildren<Animator>();
+        menuMorte = GameObject.FindGameObjectWithTag("MenuMorte");
 
         EventosManager.Caiu +=  QuedaPlayer;
         EventosManager.DanoPlayer += DanoPlayer;
+        menuMorte.SetActive(false);
 
         podeMorrer = true; 
     }
@@ -55,7 +58,8 @@ public class ManagerPlayer : MonoBehaviour
         yield return new WaitForSecondsRealtime(tempoAnimMorte);
 
         // Apareceria menu de morte
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        menuMorte.SetActive(true);
+        //pausaJogo.PassaCena();
 
     }
     
