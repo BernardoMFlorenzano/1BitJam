@@ -29,6 +29,8 @@ public class JogoDaMemoria : MonoBehaviour
         sliderTimer = GameObject.FindGameObjectWithTag("Cronometro").GetComponentInChildren<Slider>();
         timerAtual = jogoDaMemoriaData.timerInicial;
         MudaTimerVal(jogoDaMemoriaData.timerInicial);
+
+        sliderTimer.gameObject.SetActive(false);
         EventosManager.ComecaJogo += ComecaTimer;
     }
 
@@ -130,6 +132,7 @@ public class JogoDaMemoria : MonoBehaviour
 
     void ComecaTimer()
     {
+        sliderTimer.gameObject.SetActive(true);
         StartCoroutine(Timer(jogoDaMemoriaData.timerInicial));
     }
 

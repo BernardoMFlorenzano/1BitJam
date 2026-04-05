@@ -5,4 +5,6 @@ public class PlayerData : ScriptableObject
 {
     public float velMov;
     public float duracaoPulo;
+    public float cooldownPulo = 0.5f;
+    public float delayParadoPosPulo = 0f;
 }

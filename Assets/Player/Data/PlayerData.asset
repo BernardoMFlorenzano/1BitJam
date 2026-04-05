@@ -14,3 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerData
   velMov: 5
   duracaoPulo: 0.75
+  cooldownPulo: 0
+  delayParadoPosPulo: 0

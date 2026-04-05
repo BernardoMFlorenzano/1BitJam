@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+//using System.Numerics;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -17,6 +18,8 @@ public class MovimentoPlayer : MonoBehaviour
     //private float rotacao;
     public LayerMask cartasLayer;
     public bool podeCair = false;   // Metodo que cria cartas vai alterar isso no começo
+    private bool podePular = true;
+    private bool podeMover = true;
     public bool pulando = false;
     private bool moveu = false;
     private Coroutine corPulo;
@@ -41,7 +44,6 @@ public class MovimentoPlayer : MonoBehaviour
     public void OnPause()
     {
         pausaJogo.PausaPlayer();
-        Debug.Log("Apertou pause");
     }
 
 
@@ -52,6 +54,7 @@ public class MovimentoPlayer : MonoBehaviour
             moveu = true;
             EventosManager.TriggerComecaJogo();
         }
+
 
         direcao = value.Get<Vector2>();
         direcao = direcao.normalized;
@@ -65,7 +68,7 @@ public class MovimentoPlayer : MonoBehaviour
 
     public void OnJump()
     {
-        if (!pulando)
+        if (!pulando && podePular)
         {
             Pula();
         }
@@ -79,6 +82,7 @@ public class MovimentoPlayer : MonoBehaviour
     void Pula()
     {
         podeCair = false;
+        podePular = false;
         pulando = true;
         Debug.Log("Pula");
 
@@ -99,6 +103,10 @@ public class MovimentoPlayer : MonoBehaviour
             spriteRenderer.transform.localScale = new Vector2(1f,1f);
             StopCoroutine(corPulo);
             corPulo = null;
+            if (!podePular)
+                StartCoroutine(CooldownPulo());
+            if (podeMover)
+                StartCoroutine(PausaMovPosPulo());
         }
         podeCair = true;
         pulando = false;
@@ -124,7 +132,10 @@ public class MovimentoPlayer : MonoBehaviour
 
     void FixedUpdate()
     {
-        rb.linearVelocity = direcao * playerData.velMov*velMult;
+        if (podeMover)
+            rb.linearVelocity = direcao * playerData.velMov*velMult;
+        else
+            rb.linearVelocity = Vector2.zero;
         
         if (!colliderCai.IsTouchingLayers(cartasLayer) && podeCair)
         {
@@ -154,9 +165,27 @@ public class MovimentoPlayer : MonoBehaviour
         Debug.Log("termina pulo");
         velMult = 1f; // Reseta a velocidade quando cai (gosma)
 
+        if (!podePular)
+            StartCoroutine(CooldownPulo());
+        if (podeMover)
+            StartCoroutine(PausaMovPosPulo());
+
         SoundManager.Instance.PlaySoundFXClip(SoundManager.Instance.SoundList.landSound, transform);
     }
 
+    IEnumerator CooldownPulo()
+    {
+        yield return new WaitForSeconds(playerData.cooldownPulo);
+        podePular = true;
+    }
 
+    IEnumerator PausaMovPosPulo()
+    {
+        podeMover = false;
+        podePular = false;
+        yield return new WaitForSeconds(playerData.delayParadoPosPulo);
+        podeMover = true;
+        podePular = true;
+    }
 
 }

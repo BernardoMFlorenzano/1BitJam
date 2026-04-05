@@ -3,7 +3,6 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-    [SerializeField] GameObject pausePanel;
     private PausaJogo pausaJogo;
     
     void Start()
@@ -19,6 +18,11 @@ public class PauseMenu : MonoBehaviour
     public void GoMainMenu()
     {
         SceneManager.LoadScene(0);
+    }
+
+    public void ResetScene()
+    {
+        pausaJogo.ResetaCena();
     }
 
 }
