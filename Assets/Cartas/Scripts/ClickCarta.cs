@@ -28,7 +28,7 @@ public class ClickCarta : MonoBehaviour, IPointerDownHandler, IPointerUpHandler,
 
     public void FlipCartaPlayer()
     {
-        if (interagivel && jogoDaMemoria.podeEscolher)
+        if (interagivel && jogoDaMemoria.podeEscolher && animator.GetCurrentAnimatorStateInfo(0).IsName("Default"))
         {
             //spriteRenderer.sprite = spriteVirado;
             animator.SetBool("acerta", false);
@@ -65,6 +65,7 @@ public class ClickCarta : MonoBehaviour, IPointerDownHandler, IPointerUpHandler,
 
         SoundManager.Instance.PlaySoundFXClip(SoundManager.Instance.SoundList.flipCardSound, transform);
         
+
         interagivel = true;
     }
 
