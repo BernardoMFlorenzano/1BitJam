@@ -3,8 +3,14 @@ using UnityEngine;
 
 public class EventosManager : MonoBehaviour
 {
+    public static event Action ComecaJogo;
     public static event Action Caiu;
     public static event Action DanoPlayer;
+
+    public static void TriggerComecaJogo() 
+    {
+        ComecaJogo?.Invoke();
+    }
 
     public static void TriggerCaiu() 
     {

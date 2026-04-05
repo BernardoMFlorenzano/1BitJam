@@ -15,3 +15,6 @@ MonoBehaviour:
   combinacoesCartas: 2
   quantidadeCombinacoesWin: 8
   tempoDelayResultado: 2
+  timerInicial: 60
+  tempoMax: 60
+  timerTempoGanhoComb: 10

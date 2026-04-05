@@ -230,3 +230,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ColisorDano
   tempoDelay: 0.5
+  pulavel: 1

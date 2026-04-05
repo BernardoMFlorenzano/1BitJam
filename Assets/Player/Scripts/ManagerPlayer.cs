@@ -53,7 +53,10 @@ public class ManagerPlayer : MonoBehaviour
         animatorPlayer.SetTrigger("morte");
         pausaJogo.PausaLogica();
         yield return new WaitForSecondsRealtime(tempoAnimMorte);
+
+        // Apareceria menu de morte
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
     }
     
 }
