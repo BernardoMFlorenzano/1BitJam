@@ -41,6 +41,7 @@ public class MovimentoPlayer : MonoBehaviour
     public void OnPause()
     {
         pausaJogo.PausaPlayer();
+        Debug.Log("Apertou pause");
     }
 
 
@@ -80,7 +81,14 @@ public class MovimentoPlayer : MonoBehaviour
         podeCair = false;
         pulando = true;
         Debug.Log("Pula");
+
+        SoundManager.Instance.PlaySoundFXClip(SoundManager.Instance.SoundList.jumpSound, transform);
+
         corPulo = StartCoroutine(Pulo(playerData.duracaoPulo * puloMult));
+
+        if (puloMult != 1f)
+            SoundManager.Instance.PlaySoundFXClip(SoundManager.Instance.SoundList.trampolimSound, transform);
+
         puloMult = 1f;  // Reseta o multiplicador
     }
 
@@ -109,6 +117,7 @@ public class MovimentoPlayer : MonoBehaviour
         {
             efeitosPlayer.PlayEfeitoQueda();
         }
+        SoundManager.Instance.PlaySoundFXClip(SoundManager.Instance.SoundList.landSound, transform);
 
     }
 
@@ -144,6 +153,8 @@ public class MovimentoPlayer : MonoBehaviour
         pulando = false;
         Debug.Log("termina pulo");
         velMult = 1f; // Reseta a velocidade quando cai (gosma)
+
+        SoundManager.Instance.PlaySoundFXClip(SoundManager.Instance.SoundList.landSound, transform);
     }
 
 

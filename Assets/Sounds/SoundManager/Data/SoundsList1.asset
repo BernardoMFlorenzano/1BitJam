@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a0446b7a78a2eb48b52da3f6f31ac1c, type: 3}
+  m_Name: SoundsList1
+  m_EditorClassIdentifier: Assembly-CSharp::SoundsListSO
+  jumpSound: {fileID: 8300000, guid: 9a9a921d1c3adfa4099d9ac69b23058f, type: 3}
+  landSound: {fileID: 8300000, guid: bd4a171f52a7af049b95b103e038da42, type: 3}
+  flipCardSound: {fileID: 8300000, guid: 6a6233a8d0cb4d941bb9877afa3df456, type: 3}
+  correctSound: {fileID: 8300000, guid: fc32d0602375d564eb36f0b2177e9f67, type: 3}
+  failSound: {fileID: 8300000, guid: 3185841db87b6824ca66cc74d448b22f, type: 3}
+  deathSound: {fileID: 8300000, guid: 3def313d549f0474da3ac887e2a1c09d, type: 3}
+  trampolimSound: {fileID: 8300000, guid: 25aa747b7f2bc1d4b9ba6ca0272ac4b2, type: 3}
+  selectSound: {fileID: 8300000, guid: d0e0d7a98b68c384f97fcd19800997a2, type: 3}
+  arrowSound: {fileID: 8300000, guid: d94091c63805da7478db46115aefbead, type: 3}
+  menuMusic: {fileID: 8300000, guid: 3b4a8c9595fd59b45add1943ff07cfb9, type: 3}
+  gameMusic: {fileID: 8300000, guid: 3b4a8c9595fd59b45add1943ff07cfb9, type: 3}

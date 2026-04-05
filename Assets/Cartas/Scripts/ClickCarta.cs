@@ -36,6 +36,9 @@ public class ClickCarta : MonoBehaviour, IPointerDownHandler, IPointerUpHandler,
             animator.SetTrigger("seleciona");
             animator.SetBool("selecionada", true);
 
+            SoundManager.Instance.PlaySoundFXClip(SoundManager.Instance.SoundList.selectSound, transform);
+            SoundManager.Instance.PlaySoundFXClip(SoundManager.Instance.SoundList.flipCardSound, transform);
+
             jogoDaMemoria.Interacao(this);
             interagivel = false;
 
@@ -59,6 +62,8 @@ public class ClickCarta : MonoBehaviour, IPointerDownHandler, IPointerUpHandler,
 
         animator.SetBool("reseta", true);
         animator.SetBool("selecionada", false);
+
+        SoundManager.Instance.PlaySoundFXClip(SoundManager.Instance.SoundList.flipCardSound, transform);
         
         interagivel = true;
     }

@@ -11,6 +11,7 @@ public class SoundsListSO : ScriptableObject
     public AudioClip deathSound;
     public AudioClip trampolimSound;
     public AudioClip selectSound;
+    public AudioClip arrowSound;
 
     public AudioClip menuMusic;
     public AudioClip gameMusic;

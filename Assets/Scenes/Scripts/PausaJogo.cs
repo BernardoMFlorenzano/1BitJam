@@ -6,7 +6,7 @@ public class PausaJogo : MonoBehaviour
     public bool pausado = false;
     public bool podeDespausar = true;
     public Animator animatorCamera;
-    private GameObject menuPausa;
+    [SerializeField] private GameObject menuPausa;
 
 
     void Awake()
@@ -19,7 +19,7 @@ public class PausaJogo : MonoBehaviour
     void Start()
     {
         animatorCamera = GameObject.FindGameObjectWithTag("CineMachine").GetComponent<Animator>();
-        menuPausa = GameObject.FindGameObjectWithTag("MenuPause");
+        //menuPausa = GameObject.FindGameObjectWithTag("MenuPause");
         if (menuPausa != null)
             menuPausa.SetActive(false);
         //animatorCamera.transform.position = new Vector2(-18f,0f);

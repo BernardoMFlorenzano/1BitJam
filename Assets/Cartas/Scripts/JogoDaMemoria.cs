@@ -76,6 +76,9 @@ public class JogoDaMemoria : MonoBehaviour
         if (combina)
         {
             Debug.Log("Acertou combinacao");
+
+            SoundManager.Instance.PlaySoundFXClip(SoundManager.Instance.SoundList.correctSound, transform);
+
             contCombinacoes++;
             timerAtual += jogoDaMemoriaData.timerTempoGanhoComb;
             MudaTimerVal(timerAtual);
@@ -90,6 +93,9 @@ public class JogoDaMemoria : MonoBehaviour
         else
         {
             Debug.Log("Errou combinacao");
+
+            SoundManager.Instance.PlaySoundFXClip(SoundManager.Instance.SoundList.failSound, transform);
+
             foreach (GameObject c in cartasSelecionadas)
             {
                 c.GetComponent<ClickCarta>().ResetaCarta();

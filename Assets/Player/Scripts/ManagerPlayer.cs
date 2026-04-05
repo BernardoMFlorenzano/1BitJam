@@ -54,6 +54,9 @@ public class ManagerPlayer : MonoBehaviour
     IEnumerator MortePlayerDano()
     {
         animatorPlayer.SetTrigger("morte");
+
+        SoundManager.Instance.PlaySoundFXClip(SoundManager.Instance.SoundList.deathSound, transform);
+
         pausaJogo.PausaLogica();
         yield return new WaitForSecondsRealtime(tempoAnimMorte);
 
