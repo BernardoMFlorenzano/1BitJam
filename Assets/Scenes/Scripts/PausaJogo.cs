@@ -76,7 +76,7 @@ public class PausaJogo : MonoBehaviour
 
     public void ResetaCena()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void AnimCamera()

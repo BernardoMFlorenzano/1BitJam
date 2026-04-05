@@ -7,6 +7,7 @@ using UnityEngine.InputSystem;
 public class MovimentoPlayer : MonoBehaviour
 {
     [SerializeField] private PlayerData playerData;
+    private EfeitosParticulas efeitosPlayer;
     private PausaJogo pausaJogo;
     public float velMult = 1f;
     public float puloMult = 1f;
@@ -32,6 +33,7 @@ public class MovimentoPlayer : MonoBehaviour
         colliderCai = GetComponent<CircleCollider2D>();
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         animator = GetComponentInChildren<Animator>();
+        efeitosPlayer = GetComponentInChildren<EfeitosParticulas>();
         pausaJogo = GameObject.FindGameObjectWithTag("JogoDaMemoria").GetComponent<PausaJogo>();
         //velMov = playerData.velMov;
     }
@@ -102,6 +104,12 @@ public class MovimentoPlayer : MonoBehaviour
         }
         Debug.Log("Escolheu carta");
         Debug.Log(cartaSelect);
+
+        if (efeitosPlayer)
+        {
+            efeitosPlayer.PlayEfeitoQueda();
+        }
+
     }
 
 
