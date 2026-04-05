@@ -7,6 +7,7 @@ using UnityEngine.InputSystem;
 public class MovimentoPlayer : MonoBehaviour
 {
     [SerializeField] private PlayerData playerData;
+    private PausaJogo pausaJogo;
     public float velMult = 1f;
     public float puloMult = 1f;
     private Rigidbody2D rb;
@@ -16,6 +17,7 @@ public class MovimentoPlayer : MonoBehaviour
     public LayerMask cartasLayer;
     public bool podeCair = false;   // Metodo que cria cartas vai alterar isso no começo
     public bool pulando = false;
+    private bool moveu = false;
     private Coroutine corPulo;
     private Collider2D cartaSelect;
     private SpriteRenderer spriteRenderer;
@@ -30,12 +32,24 @@ public class MovimentoPlayer : MonoBehaviour
         colliderCai = GetComponent<CircleCollider2D>();
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         animator = GetComponentInChildren<Animator>();
+        pausaJogo = GameObject.FindGameObjectWithTag("JogoDaMemoria").GetComponent<PausaJogo>();
         //velMov = playerData.velMov;
+    }
+
+    public void OnPause()
+    {
+        pausaJogo.PausaPlayer();
     }
 
 
     public void OnMove(InputValue value)
     {
+        if (!moveu)
+        {
+            moveu = true;
+            EventosManager.TriggerComecaJogo();
+        }
+
         direcao = value.Get<Vector2>();
         direcao = direcao.normalized;
 

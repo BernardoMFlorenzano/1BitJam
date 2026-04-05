@@ -7,4 +7,7 @@ public class JogoDaMemoriaData : ScriptableObject
     public int quantidadeCombinacoesWin;    // Quantidade minima de combinacoes para ganhar
 
     public float tempoDelayResultado = 1f;
+    public float timerInicial = 60f;
+    public float tempoMax = 60f;
+    public float timerTempoGanhoComb = 5f;
 }

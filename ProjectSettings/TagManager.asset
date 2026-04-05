@@ -9,6 +9,9 @@ TagManager:
   - JogoDaMemoria
   - ColisorPlayer
   - Inimigo
+  - CineMachine
+  - Cronometro
+  - MenuPause
   layers:
   - Default
   - TransparentFX
@@ -63,6 +66,9 @@ TagManager:
     locked: 0
   - name: Projeteis
     uniqueID: 1555935541
+    locked: 0
+  - name: ForeGround
+    uniqueID: 1936273341
     locked: 0
   m_RenderingLayers:
   - Default
