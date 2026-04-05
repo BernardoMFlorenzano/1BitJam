@@ -1,3 +1,4 @@
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -33,11 +34,7 @@ public class SoundManager : MonoBehaviour
     
     void Start()
     {
-        if (SceneManager.GetActiveScene().name == "MainMenu" || SceneManager.GetActiveScene().name == "FinalMenu")
-            Music(SoundList.menuMusic);
-
-        else
-            Music(SoundList.gameMusic);
+            
     }
     
 
@@ -68,6 +65,26 @@ public class SoundManager : MonoBehaviour
             _musicSource.clip = musicClip;
             _musicSource.loop = true;
             _musicSource.Play();
+        }
+    }
+
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    private void OnSceneLoaded(Scene cena, LoadSceneMode mode)
+    {
+        if (SceneManager.GetActiveScene().name == "MainMenu" || SceneManager.GetActiveScene().name == "FinalMenu")
+            Music(SoundList.menuMusic);
+        else
+        {
+            Music(SoundList.gameMusic);
         }
     }
 }

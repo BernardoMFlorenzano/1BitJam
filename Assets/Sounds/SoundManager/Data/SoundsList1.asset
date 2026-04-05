@@ -22,5 +22,5 @@ MonoBehaviour:
   selectSound: {fileID: 8300000, guid: d0e0d7a98b68c384f97fcd19800997a2, type: 3}
   arrowSound: {fileID: 8300000, guid: d94091c63805da7478db46115aefbead, type: 3}
   tiktakSound: {fileID: 8300000, guid: 373c7c38cee9f974b817df8933825f71, type: 3}
-  menuMusic: {fileID: 8300000, guid: bab908f3109390f429ddf4327d2d9854, type: 3}
-  gameMusic: {fileID: 8300000, guid: 3b4a8c9595fd59b45add1943ff07cfb9, type: 3}
+  menuMusic: {fileID: 8300000, guid: 3b4a8c9595fd59b45add1943ff07cfb9, type: 3}
+  gameMusic: {fileID: 8300000, guid: bab908f3109390f429ddf4327d2d9854, type: 3}

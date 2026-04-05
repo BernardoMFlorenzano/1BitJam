@@ -7,6 +7,7 @@ using UnityEngine.InputSystem;
 
 public class MovimentoPlayer : MonoBehaviour
 {
+    public bool jogoAtivo = true;
     [SerializeField] private PlayerData playerData;
     private EfeitosParticulas efeitosPlayer;
     private PausaJogo pausaJogo;
@@ -38,13 +39,16 @@ public class MovimentoPlayer : MonoBehaviour
         spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         animator = GetComponentInChildren<Animator>();
         efeitosPlayer = GetComponentInChildren<EfeitosParticulas>();
-        pausaJogo = GameObject.FindGameObjectWithTag("JogoDaMemoria").GetComponent<PausaJogo>();
+
+        if (jogoAtivo)
+            pausaJogo = GameObject.FindGameObjectWithTag("JogoDaMemoria").GetComponent<PausaJogo>();
         //velMov = playerData.velMov;
     }
 
     public void OnPause()
     {
-        pausaJogo.PausaPlayer();
+        if (pausaJogo != null)
+            pausaJogo.PausaPlayer();
     }
 
 
@@ -143,7 +147,7 @@ public class MovimentoPlayer : MonoBehaviour
         else
             rb.linearVelocity = Vector2.zero;
         
-        if (!colliderCai.IsTouchingLayers(cartasLayer) && podeCair)
+        if (!colliderCai.IsTouchingLayers(cartasLayer) && podeCair && jogoAtivo)
         {
             Debug.Log("Caiu");
             EventosManager.TriggerCaiu();

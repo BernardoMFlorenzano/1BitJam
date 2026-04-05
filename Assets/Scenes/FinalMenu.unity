@@ -546,7 +546,7 @@ Transform:
   m_GameObject: {fileID: 103881412}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -0.2089, y: 6.45, z: 0}
+  m_LocalPosition: {x: -0.21, y: 5.75, z: 0}
   m_LocalScale: {x: 1, y: 20.67958, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1034,7 +1034,7 @@ Transform:
   m_GameObject: {fileID: 238272623}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -0.21, y: -6.07, z: 0}
+  m_LocalPosition: {x: -0.21, y: -5.74, z: 0}
   m_LocalScale: {x: 1, y: 20.67958, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1461,7 +1461,7 @@ Transform:
   m_GameObject: {fileID: 327772943}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.93, y: -0.0276, z: 0}
+  m_LocalPosition: {x: 9.78, y: -0.0276, z: 0}
   m_LocalScale: {x: 1, y: 13.820521, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1858,7 +1858,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 541694719}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: QuitGame
+        m_MethodName: BackToMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1918,7 +1918,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 404ba010e4af9694a8409e368b5a9ba7, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 2
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
@@ -3224,8 +3224,8 @@ Transform:
   m_GameObject: {fileID: 1086665008}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0318, y: -0.0179, z: 0}
-  m_LocalScale: {x: 0.95755804, y: 0.95755804, z: 0.95755804}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9275, y: 0.9275, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -4839,6 +4839,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5494591865493975892, guid: 1fba50c839c5c59478749ce2798d7114, type: 3}
+      propertyPath: jogoAtivo
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5408,7 +5412,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 718534ed5fb526247a5bb60e7dd1cac5, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 2
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
@@ -6347,7 +6351,7 @@ Transform:
   m_GameObject: {fileID: 2063261135}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.59, y: -0.0276, z: 0}
+  m_LocalPosition: {x: -9.66, y: -0.0276, z: 0}
   m_LocalScale: {x: 1, y: 13.820521, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6976,9 +6980,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Exit
-
-'
+  m_text: Back to Menu
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a05b29e6cbf9f3342800e9ff0e74ed21, type: 2}
   m_sharedMaterial: {fileID: -8040190145317612587, guid: a05b29e6cbf9f3342800e9ff0e74ed21, type: 2}
