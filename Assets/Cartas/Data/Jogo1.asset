@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Jogo1
   m_EditorClassIdentifier: Assembly-CSharp::JogoDaMemoriaData
   combinacoesCartas: 2
-  quantidadeCombinacoesWin: 8
+  quantidadeCombinacoesWin: 6
   tempoDelayResultado: 2
   timerInicial: 60
   tempoMax: 60

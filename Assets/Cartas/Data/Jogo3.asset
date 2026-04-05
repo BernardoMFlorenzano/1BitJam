@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 08ce1b2809eafae49b63d3a47407abb3, type: 3}
-  m_Name: Jogo2
+  m_Name: Jogo3
   m_EditorClassIdentifier: Assembly-CSharp::JogoDaMemoriaData
   combinacoesCartas: 2
-  quantidadeCombinacoesWin: 6
+  quantidadeCombinacoesWin: 8
   tempoDelayResultado: 2
-  timerInicial: 50
-  tempoMax: 50
-  timerTempoGanhoComb: 10
+  timerInicial: 60
+  tempoMax: 60
+  timerTempoGanhoComb: 8

@@ -13,8 +13,11 @@ public class SoundManager : MonoBehaviour
 
     public SoundsListSO SoundList;
 
+
+
     private void Awake()
     {
+        DontDestroyOnLoad(gameObject);
         if (Instance == null)
         {
             Instance = this;
