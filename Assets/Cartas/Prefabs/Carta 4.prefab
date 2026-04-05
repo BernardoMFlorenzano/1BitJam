@@ -83,7 +83,7 @@ PrefabInstance:
     - target: {fileID: 8472220270046129657, guid: 8ec42d54d80372548b044b1751688503, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: d32cb0820a1490c4a8850b8aacdefebe, type: 3}
+      objectReference: {fileID: 21300000, guid: c605c6088941101489ddf794d30f6e0f, type: 3}
     m_RemovedComponents:
     - {fileID: -8212219113705677785, guid: 8ec42d54d80372548b044b1751688503, type: 3}
     m_RemovedGameObjects: []
@@ -111,8 +111,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CartaTipo4
   spriteRenderer: {fileID: 0}
+  animator: {fileID: 0}
   spriteCoberto: {fileID: 21300000, guid: 3ed8300a6064d0c48b57c8284dce0551, type: 3}
-  spriteVirado: {fileID: 21300000, guid: d32cb0820a1490c4a8850b8aacdefebe, type: 3}
+  spriteVirado: {fileID: 21300000, guid: c605c6088941101489ddf794d30f6e0f, type: 3}
   spriteUsado: {fileID: 21300000, guid: d32cb0820a1490c4a8850b8aacdefebe, type: 3}
   interagivel: 1
   tipo: 4
