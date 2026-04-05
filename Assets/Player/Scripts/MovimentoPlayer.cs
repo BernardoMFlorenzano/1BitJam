@@ -23,6 +23,7 @@ public class MovimentoPlayer : MonoBehaviour
     public bool pulando = false;
     private bool moveu = false;
     private Coroutine corPulo;
+    private Coroutine corDelayAtivaQueda;
     private Collider2D cartaSelect;
     private SpriteRenderer spriteRenderer;
     private Animator animator;
@@ -81,10 +82,13 @@ public class MovimentoPlayer : MonoBehaviour
 
     void Pula()
     {
+        if (corDelayAtivaQueda != null)
+            StopCoroutine(corDelayAtivaQueda);
+        
         podeCair = false;
         podePular = false;
         pulando = true;
-        Debug.Log("Pula");
+        Debug.Log("Pula");   
 
         SoundManager.Instance.PlaySoundFXClip(SoundManager.Instance.SoundList.jumpSound, transform);
 
@@ -107,6 +111,7 @@ public class MovimentoPlayer : MonoBehaviour
                 StartCoroutine(CooldownPulo());
             if (podeMover)
                 StartCoroutine(PausaMovPosPulo());
+            //corDelayAtivaQueda = StartCoroutine(DelayAtivaQueda());
         }
         podeCair = true;
         pulando = false;
@@ -117,7 +122,9 @@ public class MovimentoPlayer : MonoBehaviour
         if (cartaSelect = Physics2D.OverlapPoint(transform.position, cartasLayer))
         {
             cartaSelect.GetComponent<ClickCarta>().FlipCartaPlayer();
+            SoundManager.Instance.PlaySoundFXClip(SoundManager.Instance.SoundList.landSound, transform);
         }
+
         Debug.Log("Escolheu carta");
         Debug.Log(cartaSelect);
 
@@ -125,7 +132,6 @@ public class MovimentoPlayer : MonoBehaviour
         {
             efeitosPlayer.PlayEfeitoQueda();
         }
-        SoundManager.Instance.PlaySoundFXClip(SoundManager.Instance.SoundList.landSound, transform);
 
     }
 
@@ -160,7 +166,7 @@ public class MovimentoPlayer : MonoBehaviour
         animator.SetTrigger("descendo");
 
         spriteRenderer.transform.localScale = new Vector2(1f,1f);
-        podeCair = true;
+        //podeCair = true;
         pulando = false;
         Debug.Log("termina pulo");
         velMult = 1f; // Reseta a velocidade quando cai (gosma)
@@ -169,8 +175,16 @@ public class MovimentoPlayer : MonoBehaviour
             StartCoroutine(CooldownPulo());
         if (podeMover)
             StartCoroutine(PausaMovPosPulo());
+        corDelayAtivaQueda = StartCoroutine(DelayAtivaQueda());
 
-        SoundManager.Instance.PlaySoundFXClip(SoundManager.Instance.SoundList.landSound, transform);
+        if (colliderCai.IsTouchingLayers(cartasLayer))
+            SoundManager.Instance.PlaySoundFXClip(SoundManager.Instance.SoundList.landSound, transform);
+    }
+
+    IEnumerator DelayAtivaQueda()
+    {
+        yield return new WaitForSeconds(playerData.delayAtivaQueda);
+        podeCair = true;
     }
 
     IEnumerator CooldownPulo()

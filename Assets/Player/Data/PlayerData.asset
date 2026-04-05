@@ -16,3 +16,4 @@ MonoBehaviour:
   duracaoPulo: 0.75
   cooldownPulo: 0
   delayParadoPosPulo: 0
+  delayAtivaQueda: 0.3

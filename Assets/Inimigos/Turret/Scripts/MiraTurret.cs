@@ -51,6 +51,7 @@ public class MiraTurret : MonoBehaviour
                 flechaAtirada.GetComponent<Rigidbody2D>().linearVelocity = rotacaoMira.normalized * turretData.flechaVel;
 
                 animator.SetTrigger("Atira");
+                SoundManager.Instance.PlaySoundFXClip(SoundManager.Instance.SoundList.arrowSound, transform, 0.6f);
 
                 StartCoroutine(CooldownTiro());
                 yield return new WaitForSeconds(turretData.delayPosTiro);
