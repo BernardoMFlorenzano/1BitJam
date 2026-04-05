@@ -12,6 +12,7 @@ public class SoundsListSO : ScriptableObject
     public AudioClip trampolimSound;
     public AudioClip selectSound;
     public AudioClip arrowSound;
+    public AudioClip tiktakSound;
 
     public AudioClip menuMusic;
     public AudioClip gameMusic;

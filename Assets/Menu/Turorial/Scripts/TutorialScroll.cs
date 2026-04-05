@@ -35,8 +35,7 @@ public class TutorialScroll : MonoBehaviour
             {
                 scrollList[i].SetActive(false);
             }
-            
+            yield return null; 
         }
-        yield return null;
     }
 }

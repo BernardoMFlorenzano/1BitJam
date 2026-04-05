@@ -12,6 +12,9 @@ public class GeraCartas : MonoBehaviour
 
     void Awake()
     {
+        if (cartasData == null)
+            return;
+            
         //compositeCollider2D = GetComponent<CompositeCollider2D>();
         cartasPoolCopia = new List<GameObject>(cartasData.cartasPool);
         cartasPoolCopia.AddRange(cartasPoolCopia);  // Duplicando a lista para ter os pares
