@@ -276,7 +276,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 289310292}
-  m_Father: {fileID: 1450751080}
+  m_Father: {fileID: 1499325180}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!225 &153442004
 CanvasGroup:
@@ -934,7 +934,7 @@ Transform:
   - {fileID: 1995248986}
   - {fileID: 1043677967}
   - {fileID: 412312731}
-  m_Father: {fileID: 1450751080}
+  m_Father: {fileID: 1499325180}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!225 &258588408
 CanvasGroup:
@@ -4187,7 +4187,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2105174393}
-  m_Father: {fileID: 1450751080}
+  m_Father: {fileID: 1499325180}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!225 &752479867
 CanvasGroup:
@@ -4651,7 +4651,7 @@ Transform:
   - {fileID: 544367393}
   - {fileID: 177398349}
   - {fileID: 1488834157}
-  m_Father: {fileID: 1450751080}
+  m_Father: {fileID: 1499325180}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &866068112
 Animator:
@@ -6137,7 +6137,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 989678031}
-  m_Father: {fileID: 1450751080}
+  m_Father: {fileID: 1499325180}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1113286901
 GameObject:
@@ -6171,7 +6171,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 851321336}
-  m_Father: {fileID: 1450751080}
+  m_Father: {fileID: 1499325180}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!225 &1113286903
 CanvasGroup:
@@ -6864,15 +6864,7 @@ RectTransform:
   - {fileID: 2144374170}
   - {fileID: 1519482464}
   - {fileID: 1669348908}
-  - {fileID: 866068111}
-  - {fileID: 1642422478}
-  - {fileID: 258588407}
-  - {fileID: 752479866}
-  - {fileID: 2084203274}
-  - {fileID: 1113286902}
-  - {fileID: 153442003}
-  - {fileID: 1087444813}
-  - {fileID: 1908337856}
+  - {fileID: 1499325180}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -6923,8 +6915,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfaca578f144fd54285e137348685316, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::JogoDaMemoria
-  jogoDaMemoriaData: {fileID: 11400000, guid: e82fb088d7f43d844b78eeded3c6a815, type: 2}
+  jogoDaMemoriaData: {fileID: 11400000, guid: 7b159b193cc3f6c45a1facaf19e16168, type: 2}
   desenhoWin: {fileID: 5186195546103493279, guid: c9070df00851323449028477c0504aa6, type: 3}
+  tutorialAnim: {fileID: 1499325179}
   cartasSelecionadas: []
   podeEscolher: 1
   combina: 1
@@ -7050,6 +7043,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1488834156}
   m_CullTransparentMesh: 1
+--- !u!1 &1499325179
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1499325180}
+  m_Layer: 5
+  m_Name: TutorialAnim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1499325180
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499325179}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 866068111}
+  - {fileID: 1642422478}
+  - {fileID: 258588407}
+  - {fileID: 752479866}
+  - {fileID: 2084203274}
+  - {fileID: 1113286902}
+  - {fileID: 153442003}
+  - {fileID: 1087444813}
+  - {fileID: 1908337856}
+  m_Father: {fileID: 1450751080}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1503484523
 GameObject:
   m_ObjectHideFlags: 0
@@ -7883,7 +7920,7 @@ Transform:
   - {fileID: 1964403879}
   - {fileID: 1053687746}
   - {fileID: 1722676062}
-  m_Father: {fileID: 1450751080}
+  m_Father: {fileID: 1499325180}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!225 &1642422479
 CanvasGroup:
@@ -9175,7 +9212,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1884154538}
-  m_Father: {fileID: 1450751080}
+  m_Father: {fileID: 1499325180}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1909772142
 GameObject:
@@ -10259,7 +10296,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 895046623}
-  m_Father: {fileID: 1450751080}
+  m_Father: {fileID: 1499325180}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!225 &2084203275
 CanvasGroup:

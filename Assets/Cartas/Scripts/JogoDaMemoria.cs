@@ -10,6 +10,7 @@ public class JogoDaMemoria : MonoBehaviour
 {   // Script que vai tratar a lógica do jogo da memoria e redirecionar os efeitos
     [SerializeField] private JogoDaMemoriaData jogoDaMemoriaData;
     [SerializeField] private GameObject desenhoWin;
+    [SerializeField] private GameObject tutorialAnim;
     private PausaJogo pausaJogo;
     private TMP_Text timerText;
     private Slider sliderTimer;
@@ -115,6 +116,10 @@ public class JogoDaMemoria : MonoBehaviour
 
     IEnumerator AnimWin()
     {
+        sliderTimer.gameObject.SetActive(false);
+        if (tutorialAnim != null)
+            tutorialAnim.SetActive(false);
+
         GameObject dogWin = Instantiate(desenhoWin, new Vector3(0f,-10f,0f), quaternion.identity);
 
         pausaJogo.PausaLogica();
@@ -144,6 +149,9 @@ public class JogoDaMemoria : MonoBehaviour
         {
             yield return new WaitForSeconds(1f);
             timerAtual--;
+            Debug.Log(timerAtual);
+            if (timerAtual <= 15f)
+                SoundManager.Instance.PlaySoundFXClip(SoundManager.Instance.SoundList.tiktakSound, transform);
             MudaTimerVal(timerAtual);
 
             if (timerAtual <= 0)
