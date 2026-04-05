@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PausaJogo : MonoBehaviour
 {
@@ -66,6 +67,16 @@ public class PausaJogo : MonoBehaviour
             podeDespausar = true;
         }
         pausado = !pausado;
+    }
+
+    public void PassaCena()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void ResetaCena()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void AnimCamera()

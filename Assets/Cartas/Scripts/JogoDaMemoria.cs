@@ -119,7 +119,7 @@ public class JogoDaMemoria : MonoBehaviour
         
         yield return new WaitUntil(() => pausaJogo.animatorCamera.GetCurrentAnimatorStateInfo(0).IsName("Default"));
 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        pausaJogo.PassaCena();
     }
 
     void ComecaTimer()

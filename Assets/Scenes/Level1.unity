@@ -1607,7 +1607,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfaca578f144fd54285e137348685316, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::JogoDaMemoria
-  jogoDaMemoriaData: {fileID: 11400000, guid: e82fb088d7f43d844b78eeded3c6a815, type: 2}
+  jogoDaMemoriaData: {fileID: 11400000, guid: 970dee83b5bf9fa408aec669a324c846, type: 2}
   desenhoWin: {fileID: 5186195546103493279, guid: c9070df00851323449028477c0504aa6, type: 3}
   cartasSelecionadas: []
   podeEscolher: 1
@@ -1871,7 +1871,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7817973719c14ca47a92913607556fb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GeraCartas
-  cartasData: {fileID: 11400000, guid: b60e60a21fe0c4e40b7531920b2875d0, type: 2}
+  cartasData: {fileID: 11400000, guid: 4cd953979b24fe44fac1c92bb805b27d, type: 2}
 --- !u!4 &1820097983
 Transform:
   m_ObjectHideFlags: 0

@@ -12,6 +12,7 @@ TagManager:
   - CineMachine
   - Cronometro
   - MenuPause
+  - MenuMorte
   layers:
   - Default
   - TransparentFX
