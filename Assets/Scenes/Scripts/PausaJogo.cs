@@ -71,6 +71,8 @@ public class PausaJogo : MonoBehaviour
 
     public void PassaCena()
     {
+        Time.timeScale = 1f;
+        pausado = false;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
