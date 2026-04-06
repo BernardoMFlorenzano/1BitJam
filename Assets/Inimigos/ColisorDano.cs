@@ -18,7 +18,7 @@ public class ColisorDano : MonoBehaviour
         
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.CompareTag("ColisorPlayer") && ativo)
         {
